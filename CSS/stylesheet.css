@@ -1,0 +1,2428 @@
+
+/* Global font settings */
+html {
+    font-size: 16px; /* Standard fontstørrelse */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Sans-serif font */
+    line-height: 1.5; /* Bedre lesbarhet */
+    margin: auto;
+    padding: 0;
+}
+
+main{
+    margin: 2rem;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row; /* Arrange header elements horizontally */
+    align-items: center; /* Vertically align all items */
+    justify-content: space-between; /* Distribute sections evenly */
+    padding: 10px 40px; /* Increased horizontal padding for better alignment */
+    max-width: 1200px; /* Increase header width for alignment */
+    margin: 0 auto; /* Center the header horizontally */
+   
+}
+
+/* Logo */
+#Logo {
+    font-size: 1.8rem; /* Slightly larger for better prominence */
+    font-weight: bold; /* Bold font */
+    margin: 0;
+    color: #000000;
+    text-decoration: none; /* Prevent underline on hover */
+    line-height: 1; /* Align text vertically */
+    flex: 2; /* Allocate more space to the logo */
+    text-align: center; /* Center-align the logo text */
+}
+
+/* Navigation styles */
+header nav {
+    display: flex;
+    align-items: center; /* Align nav items vertically */
+   /* gap: 10px; /* Space between navigation links */
+    flex: 3; /* Allocate space to navigation */
+    justify-content: center; /* Center the navigation links */
+    margin-left: 130px;
+}
+
+/* Main navigation menu */
+#hoved-navigasjon {
+    display: flex;
+    flex-direction: row; /* Align nav items horizontally */
+  
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header nav ul a {
+    
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px; /* Increased font size for readability */
+    padding: 5px 10px; /* Reduced padding */
+    line-height: 1; /* Consistent line height */
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+header nav ul a:hover {
+    text-decoration: underline; /* Underline nav links on hover */
+}
+
+/* Icons */
+.icons {
+    display: flex;
+    flex-direction: row; /* Align icons horizontally */
+   /* Ensure space between icons */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1; /* Allocate space for icons */
+    justify-content: flex-end; /* Align icons to the right */
+}
+
+.icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; /* Default icon size */
+    color: #000000;
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+    text-decoration: none; /* No underline for icons */
+}
+
+.icons a:hover {
+    transform: scale(1.2); /* Enlarge icons on hover */
+}
+
+/* Search bar */
+.search-bar {
+    max-width: 270px; /* Increased search bar width */
+    width: 100%;
+    display: flex; /* Align input and button horizontally */
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px; /* Adjusted for sleek appearance */
+    padding: 0 10px; /* Adjust padding for spacing */
+    gap: 5px; /* Space between input and button */
+    flex: 2; /* Allocate space for the search bar */
+}
+
+.search-bar input {
+    flex: 1; /* Input takes up available space */
+    border: none;
+    outline: none;
+    padding: 5px; /* Reduced padding */
+    font-size: 16px; /* Increased font size */
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-bar i {
+    font-size: 16px; /* Adjusted icon size */
+    color: #000000;
+}
+
+/* Body styling for clean layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #fff; /* Hvit bakgrunn */
+    padding: 15px; /* Luft inni footeren */
+    border-top: 1px solid #ddd; /* Lys linje på toppen */
+    text-align: left; /* Venstrestill teksten */
+}
+
+/* Seksjoner i footer */
+footer section {
+    margin-bottom: 20px; /* Luft mellom seksjonene */
+}
+
+/* Footer logo */
+.footer-logo h2 {
+    font-size: 1.5rem; /* Større tekst for logoen */
+    font-weight: bold; /* Gjør logoen fet */
+}
+
+.footer-logo p {
+    font-size: 0.9rem; /* Mindre font for ingressen */
+    color: #555; /* Grå farge for ingress */
+}
+
+/* Kontaktinformasjon */
+.footer-contact h3,
+.footer-links h3,
+.footer-social h3 {
+    font-size: 1rem; /* Overskrift størrelse */
+    font-weight: bold; /* Gjør overskriftene fete */
+    margin-bottom: 10px; /* Luft under overskriften */
+}
+
+.footer-contact ul {
+    list-style: none; /* Fjern punktmerking */
+    padding: 0;
+}
+
+.footer-contact li {
+    margin-bottom: 10px; /* Luft mellom linjene */
+    font-size: 0.9rem; /* Mindre font for kontaktinfo */
+    color: #000000; /* Standard mørk farge */
+}
+
+.footer-contact i {
+    margin-right: 5px; /* Luft mellom ikon og tekst */
+    color: #000000; /* Grå farge for ikonene */
+}
+
+/* Kontaktinformasjon bold*/
+.label {
+    font-weight: bold; /* Gjør teksten fet */
+}
+
+
+/* Footer snarveier */
+.footer-links ul {
+    list-style: none; /* Fjern punktmerking */
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px; /* Luft mellom lenker */
+}
+
+.footer-links ul li a {
+    text-decoration: none; /* Fjern understrek */
+    color: #000; /* Svart farge for lenker */
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+/* Sosiale medier */
+.footer-social ul {
+    list-style: none; /* Fjern punktmerking */
+    padding: 0;
+    display: flex; /* Ikoner på én linje */
+    gap: 10px; /* Luft mellom ikonene */
+    align-items: center;
+    padding-bottom: 10px; /* Ekstra plass nederst */
+
+}
+
+.footer-social ul li a {
+    font-size: 1.2rem; /* Større ikonstørrelse */
+    color: #000; /* Svart farge for ikonene */
+    text-decoration: none; /* Fjern understrek */
+    
+}
+
+
+
+
+/* Footer Container */
+footer {
+    display: flex;
+    flex-direction: column; /* Stack logo above the other sections */
+   
+    justify-content: center; /* Vertically center the content */
+    width: 90%; /* Set a smaller width */
+    max-width: 1200px; /* Maximum width of the footer */
+    padding: 15px;
+
+    margin: 0 auto; /* Center the footer horizontally on the page */
+}
+
+/* Logo Section */
+.footer-logo {
+    text-align: left; /* Center the text */
+    margin-bottom: 20px; /* Space below the logo section */
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Footer Row: All three sections in one row */
+.footer-row {
+    display: flex;
+    justify-content: space-between; /* Distribute the space evenly between sections */
+    gap: 120px; /* Optional space between sections */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    width: 100%; /* Full width for the footer row */
+    max-width: 2000px; /* Max width to prevent stretching */
+    align-items: center;
+}
+
+/* Footer Section */
+.footer-contact, .footer-links, .footer-social {
+    flex: 1; /* Allow sections to take equal space */
+    padding: 10px;
+    background-color: #fff; /* Optional background for sections */
+    border-radius: 5px; /* Optional rounded corners for sections */
+    min-width: 250px; /* Ensure sections don't become too small */
+}
+
+
+
+/* Title in each section */
+footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* List styles */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 8px 0;
+}
+
+/* Footer Links */
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Social Media Icons */
+.footer-social a {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer-social a:hover {
+    color: #1b6cb9; /* Change color on hover */
+}
+
+/* Footer Contact Section */
+.footer-contact .label {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Banner Section */
+/* Banner Section */
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Important: position the buttons relative to the #banner */
+    width: 80vw;
+    height: 80vh;
+    margin: 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+/* Slider Container */
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+     /* Allow horizontal scroll for the slides */
+}
+
+/* Slides */
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%; /* Total width for 3 slides */
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* Individual Slide */
+.slide {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Each slide takes up 100% width of the slider */
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* Slide Image */
+.slide img {
+    width: 80vw;
+    height: 76.3vh;
+    object-fit: cover;
+    filter: brightness(70%);
+    border-radius: 20px;
+}
+
+/* Slide Content */
+.slide .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-align: right;
+    color: #fff;
+    width: 30vw;
+}
+#otherslide1,#otherslide2{
+    margin-left: 10px;
+    
+}
+
+@media (max-width: 480px) {
+    #otherslide1,#otherslide2{
+        padding: 5px;
+    }
+}
+
+#otherslide1 .content,#otherslide2 .content {
+    
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-align: left;
+    color: #fff;
+    width: 30vw;
+}
+
+
+.slide .content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.slide .content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.slide .content .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+.slide .content .button:hover {
+    background: #555;
+}
+
+/* Navigation Buttons */
+button.prev, button.next {
+    position: absolute; /* Position relative to #banner */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3; /* Ensure buttons are above other content */
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button.prev:hover, button.next:hover {
+    background: gray;
+}
+
+button.prev {
+    left: 15px; /* Fixed position from the left edge of #banner */
+}
+
+button.next {
+    right: 15px; /* Fixed position from the right edge of #banner */
+}
+
+/* Shadow Effect on Images */
+.slides img {
+    filter: brightness(70%);
+}
+
+#banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Dim background */
+    z-index: 1;
+}
+
+
+
+
+
+
+
+/* Seksjon: Våre mest populære produkter */
+#De-mest-populære {
+    padding: 20px;
+    margin-bottom: 20px; /* Luft mellom denne seksjonen og neste */
+}
+
+#De-mest-populære h2, 
+#De-mest-populære h3 {
+    text-align: center;
+    margin-bottom: 15px; /* Luft mellom overskrifter */
+}
+
+
+/* Legg til rom mellom filterknapper og bilder */
+.product-filters {
+    display: flex;
+    justify-content: center; /* Plasser knappene ved siden av hverandre */
+    gap: 10px; /* Avstand mellom knappene */
+    margin-bottom: 20px; /* Luft mellom knappene og innholdet nedenfor */
+}
+
+
+/*Produktnavn-link*/
+figcaption a {
+    color: #000000; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+#De-mest-populære .filter-btn {
+    padding: 10px 20px; /* Luft rundt teksten */
+    border: 1px solid #000; /* Svart kant */
+    background-color: transparent; /* Ingen bakgrunnsfarge */
+    color: #000; /* Svart tekst */
+    font-size: 14px; /* Lesbar fontstørrelse */
+    text-align: center; /* Sentraliser tekst */
+    border-radius: 25px; /* Myke kanter */
+    cursor: pointer; /* Pekehånd for interaktivitet */
+    display: inline-block; /* Sørg for riktig layout */
+    
+}
+
+/* Hover-effekt */
+#De-mest-populære .filter-btn:hover {
+    background-color: #000; /* Svart bakgrunn */
+    color: #fff; /* Hvit tekst */
+}
+
+/* Aktiv knapp (basert på aria-pressed) */
+#De-mest-populære .filter-btn[aria-pressed="true"] {
+    background-color: #000; /* Svart bakgrunn for aktiv knapp */
+    color: #fff; /* Hvit tekst */
+    border: 1px solid #000; /* Oppretthold svart kant */
+}
+
+
+
+
+.produkt-liste {
+    padding: 20px;
+    text-align: center;
+}
+
+.filter-btn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.filter-btn:hover {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-spacing: 20px;
+    table-layout: fixed;
+    
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    width: 20vw;
+}
+
+.product p{
+    display: inline;
+    margin-right: 0%;
+}
+.product figure {
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+    height: 60vh;
+    object-fit: fill;
+    border-bottom: 1px solid #ddd;
+    border-radius: 20px 20px 0 0;
+  
+}
+
+.favorite-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(200, 200, 200, 0.8);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-btn:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+figcaption {
+    padding: 15px 10px;
+    text-align: left;
+}
+
+.product-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;  /* Ensure product name is inline with the "Product Name" heading */
+    margin-right: 10px; /* Space between name and heading */
+}
+
+
+
+.product-reviews {
+    font-size: 1em;
+    color: #000;
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+}
+
+
+/* Seksjon: Våre mest populære kategorier */
+#category-container {
+    padding: 20px;
+    margin-bottom: 20px; /* Luft mellom denne seksjonen og neste */
+    text-align: center; /* Sentraliserer overskriften og ingressen */
+}
+
+#category-container ul {
+    display: flex;
+    flex-direction: column; /* Plasser kategorikortene under hverandre */
+    gap: 20px; /* Luft mellom kortene */
+    padding: 0;
+    list-style: none; /* Fjern punktmerking */
+}
+
+
+
+
+
+#category-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3 equal rows */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Space between grid items */
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 600px; /* Define a fixed height for the grid container */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+.grid-item.category {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Ensure the category spans the full height of its grid cell */
+    display: flex;
+    flex-direction: column; /* Ensures figure spans the full height */
+}
+
+.grid-item.category figure {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Inherit the height of the parent .grid-item */
+    margin: 0; /* Remove default margin from figure */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.grid-item.category img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Ensures the image fills the space without distortion */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.grid-item.category:hover img {
+    opacity: 0.8;
+}
+
+.grid-item.category figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0); /* Semi-transparent background for readability */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+/* Assign categories to specific grid cells */
+.category-1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+
+.category-2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.category-3 {
+    grid-row: 1 / 3; /* Spans rows 1 and 2 */
+    grid-column: 3 / 4;
+}
+
+.category-4 {
+    grid-row: 2 / 4; /* Spans rows 2 and 3 */
+    grid-column: 1 / 3;
+}
+
+.category-5 {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+}
+
+
+
+
+/* Container Styles */
+#category-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* List Styles */
+#category-container ul {
+    padding: 0;
+    list-style: none;
+}
+
+/* Grid Container for Larger Screens */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 77vw;
+    margin: 0 auto;
+}
+
+/* Individual Grid Items */
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.grid-item figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        gap: 20px; /* Space between items */
+        width: 100%; /* Full-width container */
+        height: auto;
+    }
+
+    .grid-item {
+        width: 90%; /* Adjust width for responsiveness */
+        min-height: 200px; /* Enforce a taller height */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-item.category {
+        min-height: 200px !important; /* Force increased height */
+    }
+
+    .grid-item.category img {
+        width: 100%; /* Ensure the image fills the width */
+        height: 40vh; /* Fill the full height */
+        object-fit: cover; /* Maintain aspect ratio */
+    }
+
+    .grid-item.category figcaption {
+        position: absolute;
+        bottom: 10px; /* Position at the bottom */
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 18px; /* Larger font size */
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0); /* Semi-transparent background */
+        color: #fff; /* Ensure text is readable */
+        border-radius: 5px;
+    }
+}
+
+
+
+
+/* Seksjon: Anmeldelser */
+#Anmeldelser {
+    padding: 35px;
+    margin-bottom: 20px; /* Luft mellom denne seksjonen og neste */
+}
+
+#Anmeldelser h2 {
+    text-align: left; /* Sentrer overskriften */
+    margin-bottom: 15px; /* Luft under overskriften */
+}
+
+#review-slider-container {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden; /* Hide content outside the container */
+    position: relative;
+    padding: 10px 0;
+}
+
+/* Reviews Slider */
+.reviews-slider {
+    list-style: none; /* Remove list styling */
+    display: flex; /* Inline-flex ensures horizontal alignment */
+    gap: 20px; /* Space between the review cards */
+    padding: 0;
+    margin: 0;
+    transform: translateX(0); /* Initial position for scroll animation */
+    transition: transform 0.3s ease-in-out;
+    overflow-x: scroll;  /* Can be auto, hidden, or visible */
+    overflow-y: hidden;
+}
+
+/* Individual Review */
+.review {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align all content to the left */
+    width: 300px; /* Fixed width for each review */
+    height: auto; /* Allow flexible height to fit content */
+    text-align: left; /* Align text to the left */
+    background-color: #fff;
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Slight shadow for cards */
+    flex-shrink: 0; /* Prevent shrinking of cards */
+    margin-bottom: 20px; /* Add spacing between reviews */
+}
+
+
+/* Circular Image */
+.review figure {
+    margin: 0 0 10px; /* Space below the figure */
+}
+
+.review figure img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular image */
+    margin: 0 ;
+}
+
+/* Review Name */
+.review figure figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Rating */
+.rating {
+    text-align: left; /* Align stars to the left */
+    color: black; /* Black color for stars */
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Review Text */
+.review-text {
+    font-size: 14px;
+    color: #666;
+    text-align: left; /* Align text to the left */
+}
+
+
+/* Circular Image */
+.review figure {
+    margin: 0 0 10px; /* Space below the figure */
+}
+
+
+/*Produkt-Siden*/
+
+
+/* Brødsmulesti */
+.breadcrumb {
+    display: flex;
+    flex-direction: row; /* Default layout for larger screens */
+    align-items: center; /* Vertically center items */
+    gap: 5px; /* Space between breadcrumb items */
+    padding: 10px 0; /* Space above and below breadcrumbs */
+    list-style: none; /* Remove default list styling */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.breadcrumb li {
+    font-size: 14px; /* Readable font size */
+    color: #333;
+    white-space: nowrap; /* Prevent text wrapping within individual items */
+}
+
+.breadcrumb li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark text */
+}
+
+.breadcrumb li:last-child {
+    font-weight: bold; /* Highlight the last item */
+    cursor: default; /* Change cursor for non-clickable item */
+}
+
+.breadcrumb li::after {
+    content: ">";
+    margin-left: 5px; /* Space to the left of separator */
+    margin-right: 5px; /* Space to the right of separator */
+    color: #999; /* Light gray color for the separator */
+}
+
+.breadcrumb li:last-child::after {
+    content: ""; /* Remove separator for the last item */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .breadcrumb {
+        flex-direction: column; /* Stack breadcrumbs vertically */
+        align-items: flex-start; /* Align items to the left */
+        gap: 10px; /* Add more spacing between items */
+    }
+
+    .breadcrumb li {
+        font-size: 12px; /* Slightly smaller font for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .breadcrumb li {
+        font-size: 11px; /* Further reduce font size for very small screens */
+    }
+
+    .breadcrumb li::after {
+        margin-left: 3px;
+        margin-right: 3px; /* Reduce spacing around separator */
+    }
+}
+
+
+/* Området med produktbilder */
+/* Produktseksjon */
+.product-section {
+    display: flex;
+    flex-wrap: wrap; /* Sørg for responsivitet */
+     /* Avstand mellom bildeområdet og produktinfo */
+    margin: 20px;
+    align-items: flex-start;
+    
+}
+
+/* Bilder */
+.product-images {
+    display: flex;
+   
+    flex: 1; /* Gir fleksibilitet til bildeområdet */
+    align-items: center; /* Sentrer vertikalt */
+    
+}
+
+.thumbnail-images {
+    display: flex;
+    flex-direction: column; /* Plasser miniatyrbildene i en kolonne */
+    gap: 10px; /* Luft mellom miniatyrbildene */
+    align-items: center;
+}
+
+.thumbnail-images img {
+    width: 150px; /* Fast bredde for miniatyrbilder */
+    height: 33vh; /* Bevar proporsjonene */
+    cursor: pointer; /* Indikerer interaksjon */
+}
+
+.main-image img {
+    max-width: 400px; /* Begrens bredde for hovedbildet */
+    height: auto; /* Bevarer proporsjoner */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Produktinfo */
+.product-info {
+    flex: 1; /* Gir fleksibilitet til infoområdet */
+    display: flex;
+    flex-direction: column;
+    height: 99.333vh;
+    overflow-y: auto;
+     /* Avstand mellom produktinfoelementer */
+}
+/* Produktinfo */
+.product-info {
+    flex: 1; /* Gir fleksibilitet til infoområdet */
+    display: flex;
+    flex-direction: column;
+   /* Avstand mellom produktinfoelementer */
+}
+
+
+
+
+
+/* Produktinformasjon */
+.product-info {
+    display: flex;
+    flex-direction: column; /* Plasser elementene under hverandre */
+    gap: 15px; /* Luft mellom elementene */
+    margin-top: 17px; /* Luft over produktinformasjonen */
+    padding: 10px; /* Innvendig luft */
+   /* Lys bakgrunnsfarge */
+    border: 1px solid #ddd; /* Lys kantlinje rundt seksjonen */
+    border-radius: 5px; /* Myke kanter */
+    text-align: left; /* Venstrestill teksten */
+}
+
+/* Produktnavn */
+#product-name {
+    font-size: 1.8rem; /* Større font for produktnavnet */
+    font-weight: bold; /* Gjør navnet fet */
+}
+
+/* Merkenavn */
+.product-info a {
+    font-size: 1.2rem;
+    color: #555; /* Mørk grå farge */
+    font-weight: lighter;
+}
+
+.product-info a:hover {
+    text-decoration: underline; /* Understrek ved hover */
+}
+
+/* Pris */
+.product-info p {
+    margin: 0; /* Fjern ekstra margin */
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.product-info .price {
+    font-size: 1.3rem; /* Fremhev prisen */
+    color: #000;
+    font-weight: bold;
+}
+
+/* Velg størrelse */
+#size-select {
+    width: 100%; /* Full bredde */
+    padding: 10px; /* Luft rundt teksten */
+    font-size: 1rem; /* Standard fontstørrelse */
+    border: 1px solid #ccc; /* Lys grå kant */
+    background-color: lightgrey;
+    height: 10vh;
+}
+
+/* Kjøpsknapp */
+.product-info .button {
+    display: inline;
+    width: 32vw; /* Full bredde */
+    text-align: center;
+    padding: 15px;
+    background-color: #000; /* Svart bakgrunn */
+    color: #fff; /* Hvit tekst */
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px; /* Myke kanter */
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+}
+
+.product-info .button:hover {
+    background-color: #333; /* Mørkere bakgrunn ved hover */
+}
+
+/* Wishlist knapp */
+.wishlist-button {
+    background-color: white;
+    border: 1px solid black; /* Lys kant */
+    padding: 5px; /* Luft rundt ikonet */
+    font-size: 1.2rem; /* Størrelse på hjertet */
+    cursor: pointer; /* Pekehånd ved hover */
+    height: 9vh;
+    width: 4vw;
+   color:white;
+}
+
+.heart-icon {
+    font-size: 1.2rem; /* Size of the heart */
+    color: white; /* White fill for the heart */
+    text-shadow: 
+        1px 1px 0 black, 
+        -1px 1px 0 black, 
+        1px -1px 0 black, 
+        -1px -1px 0 black; /* Black border effect */
+}
+
+
+/* Detaljer */
+.product-info details {
+    padding: 10px 0; /* Luft rundt detaljene */
+    border-top: 1px solid #ddd; /* Separator mellom detaljene */
+}
+
+.product-info details summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-info details p {
+    font-size: 0.9rem; /* Litt mindre tekst */
+    margin-top: 10px;
+}
+
+/* Tabell i størrelsestabell */
+.product-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.product-info table th, 
+.product-info table td {
+    border: 1px solid #271f1f;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.product-info table th {
+    background-color: #f1f1f1; /* Lys grå bakgrunn for overskriften */
+    font-weight: bold;
+}
+
+/* Stjerneanmeldelser */
+.product-info .star-rating i {
+    color: #000000; /* Gullfarge for stjerner */
+}
+
+.product-info .review strong {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+/* Produktkort uten kantlinje */
+.product1, .product2, .product3, .product4, .product5, .product6 {
+    display: flex;
+    flex-direction: column; /* Plasser innholdet under hverandre */
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px; /* Luft mellom hvert produktkort */
+    border: none; /* Fjerner kantlinje */
+    list-style: none;
+    
+}
+
+.product1 img {
+    max-width: 100%; /* Gjør bildet responsivt */
+    height: auto; /* Behold proporsjoner */
+    margin-bottom: 10px; /* Avstand mellom bildet og teksten */
+}
+
+
+
+/* Responsivitet */
+@media (max-width: 768px) {
+    .product-section {
+        flex-direction: column; /* Stable elementene vertikalt på små skjermer */
+        align-items: center; /* Sentrer innholdet */
+        width: 60vw;
+    }
+
+    .product-images {
+        flex-direction: column; /* Endre til kolonnevisning for bilder */
+        align-items: center;
+        width: 60vw;
+    }
+
+    .thumbnail-images {
+        flex-direction: row; /* Legg miniatyrbildene ved siden av hverandre */
+        justify-content: center;
+        width: 80vw;
+    }
+    .product-info {
+        flex-direction: column; /* Stable elementene vertikalt på små skjermer */
+        align-items: center; /* Sentrer innholdet */
+        width: 77vw;
+        border: none;
+    }
+
+    .wishlist-button{
+        width: 60px;
+    }
+
+}
+
+
+
+
+
+/* Section: Lignende produkter */
+.lignende-produkter {
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    list-style: none; /* Remove list styling */
+    display: flex; /* Inline-flex ensures horizontal alignment */
+    gap: 20px; /* Space between the review cards */
+    padding: 0;
+    margin: 0;
+    transform: translateX(0); /* Initial position for scroll animation */
+    transition: transform 0.3s ease-in-out;
+    overflow-x: scroll;  /* Can be auto, hidden, or visible */
+    overflow-y: hidden;
+}
+
+.lignende-produkter header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lignende-produkter header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.lignende-produkter header .se-flere {
+    font-size: 0.9rem;
+    color: #1b6cb9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lignende-produkter header .se-flere:hover {
+    text-decoration: underline;
+}
+
+/* Product List */
+.product-list {
+    list-style: none; /* Remove list styling */
+    display: flex; /* Inline-flex ensures horizontal alignment */
+    gap: 20px; /* Space between the cards */
+    padding: 0;
+    margin: 0;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Prevent vertical scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+    scroll-snap-type: x mandatory; /* Smooth snapping for scrollable items */
+}
+
+.product-list::-webkit-scrollbar {
+    height: 8px; /* Custom scrollbar height */
+}
+
+.product-list::-webkit-scrollbar-thumb {
+    background-color: #bbb; /* Scrollbar thumb color */
+    border-radius: 4px;
+}
+
+.product-list::-webkit-scrollbar-track {
+    background-color: #f5f5f5; /* Scrollbar track color */
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 20px; /* Keep rounded corners */
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    flex: 0 0 auto; /* Prevent cards from shrinking or growing */
+    width: 300px; /* Ensure consistent card width */
+    height: auto; /* Allow flexible height */
+    scroll-snap-align: start; /* Align cards during scrolling */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
+
+/* Maintain responsive image dimensions */
+.product  img {
+    width: 100%;
+    height: 200px; /* Fixed height for consistent image sizing */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    border-radius: 20px 20px 0 0; /* Rounded top corners */
+}
+
+/* Position favorite button correctly */
+.favorite-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(200, 200, 200, 0.8);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-btn:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+/* Product details remain consistent */
+figcaption {
+    padding: 15px 10px;
+    text-align: left;
+}
+
+.product-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product-reviews {
+    font-size: 1em;
+    color: #000;
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+}
+
+
+
+/* CHECKOUT-SIDEN*/
+/* Venstrestill alt innhold */
+body, main, header, footer, section, article {
+    text-align: left; /* Venstrestill tekst */
+}
+
+
+
+
+
+/* Section container */
+#handlekurv-seksjon {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+/* Section header */
+#handlekurv-seksjon h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Product card styling */
+.handlekurv-produkt {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    gap: 15px;
+}
+
+/* Product image */
+.handlekurv-produkt figure {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.handlekurv-produkt img {
+    width: 20vw;
+    height: 30vh;
+    object-fit: contain;
+}
+
+/* Product details */
+.produkt-detaljer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.produkt-detaljer p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Size and Quantity Row */
+.produkt-valg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.produkt-valg label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+}
+
+.produkt-valg select,
+.produkt-valg input {
+    padding: 5px;
+    font-size: 12px;
+    width: 70px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: lightgray;
+    color: black;
+}
+
+/* Icons section */
+.produkt-ikoner {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+}
+
+.produkt-ikoner i:hover {
+    color: #1b6cb9;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .handlekurv-produkt {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .produkt-detaljer {
+        gap: 10px;
+    }
+
+    .produkt-ikoner {
+        top: 10px;
+        right: 10px;
+    }
+}
+
+
+
+/* Section container */
+#dine-opplysninger {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Align section headers */
+#dine-opplysninger h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left; /* Matches with SHOPPINGBAGEN header */
+}
+
+/* Fieldset styling */
+#dine-opplysninger fieldset {
+    border: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+/* Form group styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+/* Input fields */
+#dine-opplysninger input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button container styling */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between buttons */
+}
+
+.lagre-knapp,
+.avbryt-knapp {
+    display: block;
+    width: 100%; /* Occupies full width */
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.lagre-knapp {
+    background-color: #333;
+    color: white;
+}
+
+.avbryt-knapp {
+   text-decoration: underline;
+}
+
+.lagre-knapp:hover {
+    background-color: #555;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+/* General styling for levering and betaling sections */
+#Levering form, 
+#betaling form {
+    display: flex;
+    flex-direction: column; /* Stack all elements */
+ /* Spacing between fields */
+    width: 100%; /* Full width of container */
+    font-family: Arial, sans-serif; /* Use clean, readable font */
+    margin: 30px auto;
+}
+
+/* Headers styling */
+/* General h3 styling */
+#Levering_h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    margin: 0; /* Align with other headers */
+    padding: 0;
+}
+
+/* Ensure consistent spacing for both sections */
+#DINE_OPPLYSNINGER, 
+#Levering {
+    margin: 0;
+    padding: 0;
+}
+
+/* Leveringsvalg */
+#Levering article {
+    border: none; /* Removed border */
+    border-radius: 5px; /* Smooth corners */
+    padding: 15px; /* Inner spacing */
+    margin-bottom: 15px; /* Spacing between articles */
+    background-color: #fff; /* Clean white background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+}
+
+/* Leveringsvalg content layout */
+.leveringsvalg-container {
+    display: flex;
+    align-items: flex-start; /* Align radio buttons and labels */
+    gap: 10px; /* Space between radio and label */
+}
+
+/* Radio button styling */
+.leveringsvalg-container input[type="radio"] {
+    margin: 0; /* Remove default margins */
+    width: 18px; /* Match size in screenshot */
+    height: 18px; /* Same height as width */
+}
+
+/* Label for levering options */
+.leveringsvalg-container label {
+    font-size: 1rem; /* Consistent font size */
+    font-weight: bold; /* Bold text for options */
+    color: #000; /* Dark text for readability */
+    margin: 0; /* No margin */
+}
+
+/* Subtext for levering (gray) */
+.leveringsvalg-container span {
+    font-size: 0.9rem;
+    color: #888; /* Gray for secondary details */
+    display: block; /* Stack below main text */
+}
+
+/* Price section (aligned with radio buttons) */
+.leveringsvalg-container .pris {
+    margin-left: auto; /* Push price to the far right */
+    font-size: 1rem; /* Same size as main text */
+    font-weight: bold; /* Bold for emphasis */
+    color: #000; /* Dark text for readability */
+    display: flex;
+    align-items: center; /* Align with radio button */
+    gap: 5px; /* Space between price and icon */
+}
+
+/* Icon styling in price */
+.leveringsvalg-container .pris img {
+    width: 16px; /* Match icon size */
+    height: 16px; /* Square dimensions */
+}
+
+/* Description text for levering (paragraphs) */
+#Levering article p {
+    font-size: 0.9rem;
+    line-height: 1.4; /* Better readability */
+    color: #444; /* Slightly dark gray for readability */
+    margin-top: 10px; /* Space above paragraph */
+}
+
+/* Leverings header alignment */
+#Levering h3 {
+    margin-bottom: 15px; /* Match spacing in screenshot */
+    text-align: left; /* Align text to the left */
+}
+
+/* General styles for Betaling Section */
+#betaling {
+    
+    background-color: #fff;
+    border-radius: 5px;
+
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+/* Header styles */
+#betaling  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    margin: 0; /* Align with other headers */
+    padding: 0;
+}
+
+/* Label and Input styling */
+#betaling label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#betaling .input-row {
+    margin-bottom: 20px;
+}
+
+#betaling input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Flexbox for rows of inputs (Utløpsdato and CVC) */
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-group {
+    flex: 1;
+}
+
+.input-group input {
+    width: 100%;
+}
+
+/* Pricing styles */
+.pris-tekst {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.total-pris {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.fullfor-knapp {
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+}
+
+.fullfor-knapp:hover {
+    background-color: #555;
+}
+
+/* Confirmation text */
+.bekreftelse-tekst {
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.5;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Checkbox styling */
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.checkbox_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+
+
+
+
+#cart_Main {
+    width: 50%; /* Set width to 50% */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Optional: adds space around the section */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+header {
+    text-align: center; /* Center the content inside the header */
+}
+
+h2 {
+    margin-top: 10px; /* Optional: Adds space above the "Kasse" heading */
+}
+
+
+#seksjon-kasse h2 {
+    text-align: center; /* Center the text horizontally */
+    margin-top: 20px; /* Optional: Adds space above the "Kasse" heading */
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust layout for tablets and mobile */
+    header {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center; /* Center all elements */
+        flex-wrap: wrap;
+    }
+
+    #Logo {
+        flex: 1; /* Allow logo to take available space */
+        text-align: center; /* Center-align the logo */
+        margin-bottom: 10px; /* Add space between logo and nav */
+    }
+
+    header nav {
+        margin-left: 0; /* Remove left margin */
+        flex: 1; /* Make nav take available space */
+        justify-content: center; /* Center the nav links */
+    }
+
+    #hoved-navigasjon {
+        flex-direction: column; /* Stack navigation items vertically on small screens */
+        align-items: center; /* Center nav items */
+    }
+
+    .icons {
+        flex: 1; /* Allow icons to take available space */
+        justify-content: center; /* Center icons on small screens */
+        width: 100%; /* Force the icons container to take full width */
+        display: block; /* Ensure it behaves as a block element */
+        margin-top: 10px; /* Add margin at the top */
+    }
+
+    .search-bar {
+        max-width: 50vw; /* Allow search bar to take more space */
+        margin-top: 10px; /* Space above search bar */
+        justify-content: center; /* Center the search bar */
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack header elements vertically */
+        align-items: center; /* Center all elements */
+        flex-wrap: wrap;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column; /* Stack navigation and icons */
+        align-items: center;
+        width: 100%;
+    }
+
+    #hoved-navigasjon {
+        flex-direction: column; /* Stack navigation items */
+        align-items: center; /* Center nav items */
+        margin-bottom: 10px; /* Add spacing below nav items */
+    }
+
+    .icons {
+        width: 100%; /* Full width for icons */
+        display: flex; /* Keep icons in a row */
+        justify-content: center; /* Center icons horizontally */
+        margin-top: 10px; /* Add spacing above icons */
+    }
+
+    .search-bar {
+        max-width: 50vw; /* Allow search bar to take more space */
+        margin-top: 10px; /* Space above search bar */
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    /* Adjust layout for smaller screens (mobiles) */
+    header {
+        padding: 10px; /* Smaller padding for mobile */
+        gap: 10px;
+    }
+   
+
+    .search-bar {
+        max-width: 60vw; /* Full width for search bar */
+    }
+
+    .icons a {
+        font-size: 8px; /* Smaller icon size on small screens */
+    }
+
+    #Logo {
+        font-size: 1.5rem; /* Slightly smaller logo for mobile */
+    }
+}
+
+@media (max-width: 768px) {
+
+    
+    .slide .content, #otherslides .content {
+        left: 5%; /* Adjust the left position for better centering on smaller screens */
+        width: 50vw; /* Increase the width for better visibility on tablets */
+    }
+
+    .slide .content h1, #otherslides .content h1 {
+        font-size: 1.6rem; /* Adjust font size for better readability */
+    }
+
+    .slide .content p, #otherslides .content p {
+        font-size: 0.9rem; /* Smaller font size for better fit */
+    }
+
+    .slide .content .button #otherslides .content p {
+        font-size: 0.8rem; /* Smaller button text for better alignment */
+        padding: 8px 16px; /* Adjust padding for smaller screen */
+    }
+}
+
+@media (max-width: 480px) {
+    .banner{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+    .slide .content, #otherslides .content {
+        left: 0; /* Center content horizontally */
+        width: 63vw; /* Take up more width on small screens */
+        text-align: right; 
+        /* Center align the text on very small screens */
+    }
+
+    .slide .content h1, #otherslides .content h1 {
+        font-size: 1.4rem; /* Further reduce heading size on mobile */
+        margin-bottom: 8px;
+    }
+
+    .slide .content p, #otherslides .content p {
+        font-size: 0.8rem; /* Further reduce paragraph size on mobile */
+    }
+
+    .slide .content .button , #otherslides .content .button {
+        font-size: 0.7rem; /* Further adjust button text size */
+        padding: 6px 12px; /* Adjust padding for mobile */
+    }
+}
+
+/* Center-align the section and products */
+#De-mest-populære {
+    padding: 20px;
+    margin-bottom: 20px; /* Space between this section and the next */
+    text-align: center; /* Center-align the content */
+}
+
+#De-mest-populære h2, 
+#De-mest-populære h3 {
+    text-align: center;
+    margin-bottom: 15px; /* Space between headings */
+}
+
+/* Center the product table */
+.produkt-liste {
+    display: flex;
+    justify-content: center; /* Center-align the product table */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Space between product cards */
+    padding: 20px;
+}
+
+/* Style the product table */
+table {
+    width: auto; /* Auto size the table */
+    border-spacing: 20px; /* Space between rows */
+    table-layout: auto; /* Adjust to fit content */
+}
+
+/* Product Card Styling */
+.product {
+    width: 18%; /* Adjust width for smaller product cards */
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    margin: 10px; /* Space between product cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Image adjustments */
+.product img {
+    width: 100%;
+    height: 40vh; /* Adjust the height */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Favorite button adjustments */
+.favorite-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(200, 200, 200, 0.8);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-btn:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+/* Product caption adjustments */
+figcaption {
+    padding: 10px;
+    text-align: left;
+}
+
+figcaption a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Product name and reviews */
+.product-name {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-reviews {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    text-align: left;
+}
+
+
+
+details[open] summary .toggle-sign::before {
+    content: "-";
+}
+
+details:not([open]) summary .toggle-sign::before {
+    content: "+";
+}
+
+summary {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.toggle-sign {
+    margin-right: 10px; /* Adjust space between the + and text */
+    font-size: 20px;
+}
+
+
+
+
+
+.produkt-liste table{
+    width: 80vw;
+    align-self: center;
+}
+
+.product {
+    width: 25%; /* Adjust product width */
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    margin: 10px; /* Add some spacing between products */
+}
+
+.product img {
+    width: 100%; /* Keep width 100% to maintain responsiveness */
+    height: 40vh; /* Reduce height for all devices */
+    object-fit: fill; /* Ensure the image fits well */
+    border-bottom: 1px solid #ddd;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+    .product {
+        width: 45%; /* Two products per row on tablets */
+    }
+
+    .product img {
+        height: 25vh; /* Reduce height further for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        width: 20vw;
+        height: 40vh; /* Single product per row on mobile */
+    }
+
+    .product img {
+        height: 20vh; /* Further reduce height for mobile */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Stack filter buttons vertically on smaller screens */
+    .product-filters {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .product-list{
+        display: flex;
+        width: 1200px;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    /* Product images adjustment */
+    .product img {
+        width: 60vw;
+        height: 50vh; /* Adjust image height for smaller screens */
+    }
+    .product-list .product figure img {
+        width: 250px;
+        height: 150px; 
+        object-fit: fill;/* Adjust image height for smaller screens */
+    }
+    .product-list  .product {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+      
+        height: 300px;
+    }
+    /* Display products in a single column on smaller screens */
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .product {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+        width: 56vw;
+        height: 70vh;
+    }
+
+    .product-name {
+        font-size: 1.2em;
+    }
+
+    .favorite-btn {
+        font-size: 1.2em; /* Adjust the favorite button size */
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-name {
+        font-size: 1em; /* Adjust font size for mobile */
+    }
+
+    .product-reviews {
+        font-size: 0.9em; /* Adjust font size for mobile */
+    }
+
+    .favorite-btn {
+        font-size: 1.1em;
+        width: 30px;
+        height: 30px;
+    }
+
+    .product img {
+        height: 50vh; /* Adjust image height further for mobile */
+    }
+
+    .product-filters {
+        margin-bottom: 15px;
+    }
+
+    figcaption {
+        padding: 10px 5px;
+    }
+}
+
+
+
+#productbody{
+    width: 90%; /* Set width to 50% */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Optional: adds space around the section */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+
+.product-list .product {
+    width: 20%; /* Adjust product width */
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    margin: 10px; /* Add some spacing between products */
+}
+
+.product-list .product img {
+    width: 100%; /* Keep width 100% to maintain responsiveness */
+    height: 30vh; /* Reduce height for all devices */
+    object-fit: fill; /* Ensure the image fits well */
+    border-bottom: 1px solid #ddd;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+@media (max-width: 768px) {
+    #banner {
+        height: 60vh; /* Adjust banner height for smaller screens */
+        overflow: hidden; /* Ensure no scrolling */
+    }
+
+    .slider {
+        overflow: hidden; /* Prevent horizontal scrolling */
+    }
+
+    .slide img {
+        width: 100%; /* Responsive image width */
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .slide .content {
+        width: 90%; /* Adjust content width for smaller screens */
+        text-align: center; /* Center align text */
+    }
+
+    .slide .content h1 {
+        font-size: 1.2rem; /* Adjust heading size */
+    }
+
+    .slide .content p {
+        font-size: 0.9rem; /* Adjust paragraph size */
+    }
+
+    .slide .content .button {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
+
+    button.prev, button.next {
+        display: none; /* Hide navigation buttons on smaller screens */
+    }
+    #otherslide1,#otherslide2{
+        display: none;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ikoner/css/brands.css">
+    <link rel="stylesheet" href="Ikoner/css/fontawesome.css">
+    <link rel="stylesheet" href="Ikoner/css/solid.css">
+    <link rel="stylesheet" href="Ikoner/css/regular.css">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    
+    <title>Nettbutikk</title>
+
+</head>
+
+<body>
+    
+    <header>
+        <!-- Search Bar -->
+        <form class="search-bar" action="#" method="get">
+            <label for="search" class="visually-hidden"></label>
+            <input type="text" id="search" name="search" placeholder="søk her">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+    
+        <!-- Navigation -->
+        <nav>
+            <ul id="hoved-navigasjon">
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="#De-mest-populære">Produkter</a></li>
+                <li><a href="index.html" id="Logo">Logo</a></li>
+                <li><a href="#category-container">Kategorier</a></li>
+                <li><a href="#kontakt">Kontakt oss</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="#" class="icon1"><i class="fa-regular fa-user"></i></a></li>
+                <li><a href="#" class="icon2"><i class="fa-regular fa-heart"></i></a></li>
+                <li><a href="checkout.html" class="icon3"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+     
+     <main>
+
+        <section id="banner">
+            <section class="slider">
+                <!-- Slides Container -->
+                <section class="slides">
+                    <!-- Slide 1 -->
+                    <section class="slide">
+                        <img src="IMG/Bilde1.jpg" alt="Slide 1">
+                        <section class="content">
+                            <h1>Et harum quidem rerum facilis est et expedita distinctio.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                            <a href="#" class="button">Les mer</a>
+                        </section>
+                    </section>
+                    <!-- Slide 2 -->
+                    <section class="slide" id="otherslide1">
+                        <img src="IMG/fire.jpg" alt="Slide 2">
+                        <section class="content">
+                            <h1>Et harum quidem rerum facilis est et expedita distinctio.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                            <a href="#" class="button">Les mer</a>
+                        </section>
+                    </section>
+                    <!-- Slide 3 -->
+                    <section class="slide" id="otherslide2">
+                        <img src="IMG/man.png" alt="Slide 3">
+                        <section class="content">
+                            <h1>Et harum quidem rerum facilis est et expedita distinctio.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                            <a href="#" class="button">Les mer</a>
+                        </section>
+                    </section>
+                </section>
+                <!-- Navigation Buttons -->
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </section>
+        </section>
+          
+
+
+       <section id="De-mest-populære">
+        <article>
+            <h2>Våre mest populære Produkter</h2>
+            <h3>Oppdag det beste av det beste</h3>
+            <nav class="product-filters">
+                <form>
+                    <button type="button" class="filter-btn active" aria-pressed="true" onclick="filterProducts('new')">New Product</button>
+                    <button type="button" class="filter-btn" aria-pressed="false" onclick="filterProducts('special')">Special Price</button>
+                    <button type="button" class="filter-btn" aria-pressed="false" onclick="filterProducts('best')">Best Sellers</button>
+                </form>
+            </nav>
+        </article >
+
+        <article class="produkt-liste">
+            <table>
+                <tr>
+                    <td class="product">
+                        <figure>
+                            <img src="https://picsum.photos/id/16/200/300" alt="bilde">
+                            <figcaption>
+                                <section style="display: flex; justify-content: space-between;  align-items: center;  gap: 10px;">
+                                    <a href="product.html">Product name</a>
+                                    <p>Kr 1999</p>
+                                </section>
+                                <p class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    842 Reviews
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <button class="favorite-btn" aria-label="Legg til i ønskelisten">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </button>
+                    </td>
+                    <td class="product">
+                        <figure>
+                            <img src="https://picsum.photos/id/16/200/300" alt="bilde">
+                            <figcaption>
+                                <section style="display: flex; justify-content: space-between;  align-items: center;  gap: 10px;">
+                                    <a href="product.html">Product name</a>
+                                    <p>Kr 1999</p>
+                                </section>
+                                <p class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    842 Reviews
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <button class="favorite-btn" aria-label="Legg til i ønskelisten">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </button>
+                    </td>
+                    <td class="product">
+                        <figure>
+                            <img src="https://picsum.photos/id/16/200/300" alt="bilde">
+                            <figcaption>
+                                <section style="display: flex; justify-content: space-between;  align-items: center;  gap: 10px;">
+                                    <a href="product.html">Product name</a>
+                                    <p>Kr 1999</p>
+                                </section>
+                                <p class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    842 Reviews
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <button class="favorite-btn" aria-label="Legg til i ønskelisten">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="product">
+                        <figure>
+                            <img src="https://picsum.photos/id/16/200/300" alt="bilde">
+                            <figcaption>
+                                <section style="display: flex; justify-content: space-between;  align-items: center;  gap: 10px;">
+                                    <a href="product.html">Product name</a>
+                                    <p>Kr 1999</p>
+                                </section>
+                                <p class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    842 Reviews
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <button class="favorite-btn" aria-label="Legg til i ønskelisten">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </button>
+                    </td>
+                    <td class="product">
+                        <figure>
+                            <img src="https://picsum.photos/id/16/200/300" alt="bilde">
+                            <figcaption>
+                                <section style="display: flex; justify-content: space-between;  align-items: center;  gap: 10px;">
+                                    <a href="product.html">Product name</a>
+                                    <p>Kr 1999</p>
+                                </section>
+                                <p class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    842 Reviews
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <button class="favorite-btn" aria-label="Legg til i ønskelisten">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </button>
+                    </td>
+                    <td class="product">
+                        <figure>
+                            <img src="https://picsum.photos/id/16/200/300" alt="bilde">
+                            <figcaption>
+                                <section style="display: flex; justify-content: space-between;  align-items: center;  gap: 10px;">
+                                    <a href="product.html">Product name</a>
+                                    <p>Kr 1999</p>
+                                </section>
+                                <p class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    842 Reviews
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <button class="favorite-btn" aria-label="Legg til i ønskelisten">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </article>
+                </section>
+
+        <section id="category-container">
+            <h2>Våre mest populære Kategorier</h2>
+            <h3>Oppdag det beste av det beste</h3>
+        
+           
+                <div class="grid-container">
+                    <section class="grid-item category category-1">
+                        <figure>
+                            <img src="https://picsum.photos/id/21/367/267?blur=4" alt="Kategori 1">
+                            <figcaption>CATEGORY 1</figcaption>
+                        </figure>
+                    </section>
+                    <section class="grid-item category category-2">
+                        <figure>
+                            <img src="https://picsum.photos/id/26/200/300?blur=2" alt="Kategori 2">
+                            <figcaption>CATEGORY 2</figcaption>
+                        </figure>
+                    </section>
+                    <section class="grid-item category category-3">
+                        <figure>
+                            <img src="https://picsum.photos/id/23/3887/4899?blur=9" alt="Kategori 3">
+                            <figcaption>CATEGORY 3</figcaption>
+                        </figure>
+                    </section>
+                    <section class="grid-item category category-4">
+                        <figure>
+                            <img src="https://picsum.photos/id/43/200/300?blur=2" alt="Kategori 4">
+                            <figcaption>CATEGORY 4</figcaption>
+                        </figure>
+                    </section>
+                    <section class="grid-item category category-5">
+                        <figure>
+                            <img src="https://picsum.photos/id/31/200/300?blur=2" alt="Kategori 5">
+                            <figcaption>CATEGORY 5</figcaption>
+                        </figure>
+                    </section>
+                </div>
+          
+                 
+       
+    </section>
+
+    <section id="Anmeldelser">
+        <h2>Anmeldelser</h2>
+        <ul class="reviews-slider">
+            <li class="review">
+                <figure>
+                    <img src="https://picsum.photos/id/237/200/300" alt="Rober Labrador">
+                    <figcaption>Rober Labrador</figcaption>
+                </figure>
+                <p class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
+                <p class="review-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+            </li>
+            <li class="review">
+                <figure>
+                    <img src="https://picsum.photos/id/236/200/300" alt="Rober Labrador">
+                    <figcaption>Rober Labrador</figcaption>
+                </figure>
+                <p class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
+                <p class="review-text">
+                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                </p>
+            </li>
+            <li class="review">
+                <figure>
+                    <img src="https://picsum.photos/id/235/200/300" alt="Rober Labrador">
+                    <figcaption>Rober Labrador</figcaption>
+                </figure>
+                <p class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
+                <p class="review-text">
+                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                </p>
+            </li>
+            <li class="review">
+                <figure>
+                    <img src="https://picsum.photos/id/235/200/300" alt="Rober Labrador">
+                    <figcaption>Rober Labrador</figcaption>
+                </figure>
+                <p class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
+                <p class="review-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. </p>
+            </li>
+            <li class="review">
+                <figure>
+                    <img src="https://picsum.photos/id/235/200/300" alt="Rober Labrador">
+                    <figcaption>Rober Labrador</figcaption>
+                </figure>
+                <p class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
+                <p class="review-text">
+                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                </p>
+            </li>
+            <li class="review">
+                <figure>
+                    <img src="https://picsum.photos/id/235/200/300" alt="Rober Labrador">
+                    <figcaption>Rober Labrador</figcaption>
+                </figure>
+                <p class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
+                <p class="review-text">
+                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                </p>
+            </li>
+       
+        </ul> </section>
+
+        
+    </main>
+
+
+    <footer id="kontakt">
+
+        <section class="footer-logo">
+            <h2>Logo</h2>
+            <p>Er is niemand die van pijn zelf houdt, die het zoekt en die het hebben wil, eenvoudigweg omdat het pijn is.</p>
+        </section>
+    
+        <div class="footer-row">
+        <section class="footer-contact">
+            <h3>Kontakt</h3>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i> <span class="label">Adresse:</span> B R A Veien 4, 1757 Halden</li>
+                <li><i class="fa-solid fa-phone"></i> <span class="label">Telefon:</span> 69 60 80 00</li>
+                <li><i class="fa-solid fa-envelope"></i> <span class="label">E-post:</span> halden@hiof.no</li>
+                <li><i class="fa-solid fa-clock"></i> <span class="label">Åpningstider:</span> Stenger 15:00</li>
+            </ul>
+        </section>
+   
+        <section class="footer-links">
+            <h3>Snarveier</h3>
+            <ul>
+                <li><a href="#De-mest-populære">Produkter</a></li>
+                <li><a href="#category-container">Kategorier</a></li>
+                <li><a href="#kontakt">Kontakt oss</a></li>
+            </ul>
+        </section>
+    
+    
+        
+        <section class="footer-social">
+            <h3>Sosiale Medier</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+            </ul>
+        </section>
+        </div>
+    </footer>
+    <script src="slider.js"></script>
+</body>
+</html>
