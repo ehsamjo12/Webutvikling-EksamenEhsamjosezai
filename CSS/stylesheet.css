@@ -18,24 +18,23 @@ main{
 
 header {
     display: flex;
-    flex-direction: row; /* Arrange header elements horizontally */
-    align-items: center; /* Vertically align all items */
-    justify-content: space-between; /* Distribute sections evenly */
-    padding: 10px 40px; /* Increased horizontal padding for better alignment */
-    max-width: 1200px; /* Increase header width for alignment */
-    margin: 0 auto; /* Center the header horizontally */
-   
+    flex-direction: row; /* Arrangerer header-elementene horisontalt */
+    align-items: center; /* Justerer alle elementer vertikalt */
+    justify-content: space-between; 
+    padding: 10px 40px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 /* Logo */
 #Logo {
-    font-size: 1.8rem; /* Slightly larger for better prominence */
+    font-size: 1.8rem; /* For bedre synlighet og fremtredelse er enkelte elementer gjort litt større.*/
     font-weight: bold; /* Bold font */
     margin: 0;
     color: #000000;
-    text-decoration: none; /* Prevent underline on hover */
-    line-height: 1; /* Align text vertically */
-    flex: 2; /* Allocate more space to the logo */
+    text-decoration: none; /* Forhindrer understreking ved hover-effekt. */
+    line-height: 1; /*  */
+    flex: 2; /*Tildel mer plass til logoen. */
     text-align: center; /* Center-align the logo text */
 }
 
@@ -43,9 +42,9 @@ header {
 header nav {
     display: flex;
     align-items: center; /* Align nav items vertically */
-   /* gap: 10px; /* Space between navigation links */
-    flex: 3; /* Allocate space to navigation */
-    justify-content: center; /* Center the navigation links */
+   /* gap: 10px; /* Legger til mellomrom mellom navigasjonslenker*/
+    flex: 3; 
+    justify-content: center; /* Sentrerer navigasjonslenkene. */
     margin-left: 130px;
 }
 
