@@ -563,7 +563,7 @@ figcaption a {
 
 /* Hover-effekt */
 #De-mest-populære .filter-btn:hover {
-    background-color: #000; /* Svart bakgrunn */
+    background-color: #666666; /* Svart bakgrunn */
     color: #fff; /* Hvit tekst */
 }
 
@@ -1315,7 +1315,7 @@ figcaption {
     }
     .product-info {
         flex-direction: column; /* Stable elementene vertikalt på små skjermer */
-        align-items: center; /* Sentrer innholdet */
+        /*align-items: center; /* Sentrer innholdet, slå det av siden det ikke så fint ut */
         width: 77vw;
         border: none;
     }
