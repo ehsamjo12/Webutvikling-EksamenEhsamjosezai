@@ -953,7 +953,7 @@ figcaption {
 }
 
 
-/* Circular Image */
+
 .review figure {
     margin: 0 0 10px; 
 }
@@ -966,7 +966,7 @@ figcaption {
     margin: 0 ;
 }
 
-/* Review Name */
+
 .review figure figcaption {
     margin-top: 5px;
     font-size: 14px;
@@ -974,7 +974,7 @@ figcaption {
     color: #333;
 }
 
-/* Rating */
+
 .rating {
     text-align: left; 
     color: black; 
@@ -982,7 +982,7 @@ figcaption {
     margin: 10px 0;
 }
 
-/* Review Text */
+
 .review-text {
     font-size: 14px;
     color: #666;
@@ -990,7 +990,7 @@ figcaption {
 }
 
 
-/* Circular Image */
+
 .review figure {
     margin: 0 0 10px; 
 }
@@ -1037,7 +1037,7 @@ figcaption {
     content: ""; 
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
     .breadcrumb {
         align-items: flex-start; 
@@ -1200,10 +1200,10 @@ figcaption {
 /* Wishlist knapp */
 .wishlist-button {
     background-color: white;
-    border: 1px solid black; /* Lys kant */
-    padding: 5px; /* Luft rundt ikonet */
-    font-size: 1.2rem; /* Størrelse på hjertet */
-    cursor: pointer; /* Pekehånd ved hover */
+    border: 1px solid black; 
+    padding: 5px; 
+    font-size: 1.2rem; 
+    cursor: pointer; 
     height: 5vh;
     width: 4vw;
    color:white;
@@ -1256,7 +1256,7 @@ figcaption {
     font-weight: bold;
 }
 
-/* Stjerneanmeldelser */
+
 .product-info .star-rating i {
     color: #000000; 
 }
@@ -1278,16 +1278,16 @@ figcaption {
     flex-direction: column; 
     align-items: center;
     padding: 10px;
-    margin-bottom: 20px; /* Luft mellom hvert produktkort */
+    margin-bottom: 20px;
     border: none; /* Fjerner kantlinje */
     list-style: none;
     
 }
 
 .product1 img {
-    max-width: 100%; /* Gjør bildet responsivt */
-    height: auto; /* Behold proporsjoner */
-    margin-bottom: 10px; /* Avstand mellom bildet og teksten */
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
 }
 
 
@@ -1295,19 +1295,19 @@ figcaption {
 /* Responsivitet */
 @media (max-width: 768px) {
     .product-section {
-        flex-direction: column; /* Stable elementene vertikalt på små skjermer */
-        align-items: center; /* Sentrer innholdet */
+        flex-direction: column; 
+        align-items: center; 
         width: 60vw;
     }
 
     .product-images {
-        flex-direction: column; /* Endre til kolonnevisning for bilder */
+        flex-direction: column; 
         align-items: center;
         width: 60vw;
     }
 
     .thumbnail-images {
-        flex-direction: row; /* Legg miniatyrbildene ved siden av hverandre */
+        flex-direction: row; 
         justify-content: center;
         width: 80vw;
     }
@@ -1334,14 +1334,14 @@ figcaption {
     padding: 20px;
     margin-top: 30px;
     background-color: #f9f9f9;
-    list-style: none; /* Remove list styling */
-    display: flex; /* Inline-flex ensures horizontal alignment */
-    gap: 20px; /* Space between the review cards */
+    list-style: none; 
+    display: flex; 
+    gap: 20px; 
     padding: 0;
     margin: 0;
-    transform: translateX(0); /* Initial position for scroll animation */
+    transform: translateX(0); 
     transition: transform 0.3s ease-in-out;
-    overflow-x: scroll;  /* Can be auto, hidden, or visible */
+    overflow-x: scroll;  
     overflow-y: hidden;
 }
 
@@ -1369,7 +1369,7 @@ figcaption {
     text-decoration: underline;
 }
 
-/* Product List */
+/* Produkt Liste */
 .product-list {
     list-style: none; 
     display: flex; 
@@ -1470,7 +1470,7 @@ figcaption {
 /* CHECKOUT-SIDEN*/
 /* Venstrestill alt innhold */
 body, main, header, footer, section, article {
-    text-align: left; /* Venstrestill tekst */
+    text-align: left; 
 }
 
 
@@ -1517,7 +1517,7 @@ body, main, header, footer, section, article {
     object-fit: contain;
 }
 
-/* Product details */
+
 .produkt-detaljer {
     flex-grow: 1;
     display: flex;
@@ -1532,7 +1532,7 @@ body, main, header, footer, section, article {
     color: #333;
 }
 
-/* Size and Quantity Row */
+
 .produkt-valg {
     display: flex;
     align-items: center;
@@ -1557,7 +1557,7 @@ body, main, header, footer, section, article {
     color: black;
 }
 
-/* Icons section */
+
 .produkt-ikoner {
     position: absolute;
     top: 15px;
@@ -1574,7 +1574,7 @@ body, main, header, footer, section, article {
     color: #1b6cb9;
 }
 
-/* Mobile Responsiveness */
+
 @media (max-width: 768px) {
     .handlekurv-produkt {
         flex-direction: column;
@@ -1593,7 +1593,7 @@ body, main, header, footer, section, article {
 
 
 
-/* Section container */
+
 #dine-opplysninger {
     width: 100%;
     max-width: 800px;
@@ -1601,7 +1601,7 @@ body, main, header, footer, section, article {
     font-family: Arial, sans-serif;
 }
 
-/* Align section headers */
+
 #dine-opplysninger h3 {
     font-size: 24px;
     font-weight: bold;
@@ -1609,14 +1609,14 @@ body, main, header, footer, section, article {
     text-align: left; 
 }
 
-/* Fieldset styling */
+
 #dine-opplysninger fieldset {
     border: none;
     margin-bottom: 20px;
     padding: 0;
 }
 
-/* Form group styling */
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -1633,7 +1633,7 @@ body, main, header, footer, section, article {
     flex: 1;
 }
 
-/* Input fields */
+
 #dine-opplysninger input {
     width: 100%;
     padding: 10px 12px;
@@ -1643,17 +1643,17 @@ body, main, header, footer, section, article {
     box-sizing: border-box;
 }
 
-/* Button container styling */
+
 .button-container {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Space between buttons */
+    gap: 10px; 
 }
 
 .lagre-knapp,
 .avbryt-knapp {
     display: block;
-    width: 100%; /* Occupies full width */
+    width: 100%; 
     padding: 15px;
     font-size: 1rem;
     text-align: center;
@@ -1679,7 +1679,7 @@ body, main, header, footer, section, article {
 
 
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .form-row {
         flex-direction: column;
@@ -1772,13 +1772,13 @@ body, main, header, footer, section, article {
     gap: 5px; 
 }
 
-/* Icon styling in price */
+
 .leveringsvalg-container .pris img {
     width: 16px; 
     height: 16px; 
 }
 
-/* Description text for levering (paragraphs) */
+
 #Levering article p {
     font-size: 0.9rem;
     line-height: 1.4; 
@@ -1786,13 +1786,13 @@ body, main, header, footer, section, article {
     margin-top: 10px; 
 }
 
-/* Leverings header alignment */
+
 #Levering h3 {
     margin-bottom: 15px; 
     text-align: left; 
 }
 
-/* General styles for Betaling Section */
+
 #betaling {
     
     background-color: #fff;
@@ -1803,17 +1803,17 @@ body, main, header, footer, section, article {
     margin: 40px auto;
 }
 
-/* Header styles */
+
 #betaling  h3 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: left;
-    margin: 0; /* Align with other headers */
+    margin: 0; 
     padding: 0;
 }
 
-/* Label and Input styling */
+
 #betaling label {
     display: block;
     font-size: 1rem;
@@ -1835,7 +1835,7 @@ body, main, header, footer, section, article {
     box-sizing: border-box;
 }
 
-/* Flexbox for rows of inputs (Utløpsdato and CVC) */
+
 .input-row {
     display: flex;
     justify-content: space-between;
@@ -1850,7 +1850,7 @@ body, main, header, footer, section, article {
     width: 100%;
 }
 
-/* Pricing styles */
+
 .pris-tekst {
     font-size: 0.9rem;
     color: #888;
@@ -1865,7 +1865,7 @@ body, main, header, footer, section, article {
     margin-bottom: 20px;
 }
 
-/* Button styles */
+
 .fullfor-knapp {
     background-color: #333;
     color: #fff;
@@ -1885,7 +1885,7 @@ body, main, header, footer, section, article {
     background-color: #555;
 }
 
-/* Confirmation text */
+
 .bekreftelse-tekst {
     font-size: 0.85rem;
     color: #555;
@@ -1894,7 +1894,7 @@ body, main, header, footer, section, article {
     margin: 10px 0;
 }
 
-/* Checkbox styling */
+
 .checkbox-container {
     display: flex;
     flex-direction: column;
