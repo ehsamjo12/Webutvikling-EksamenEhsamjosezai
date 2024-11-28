@@ -51,7 +51,7 @@ header nav {
 /* Main navigation menu */
 #hoved-navigasjon {
     display: flex;
-    flex-direction: row; /* Align nav items horizontally */
+    flex-direction: row; 
   
     padding: 0;
     margin: 0;
@@ -62,61 +62,61 @@ header nav ul a {
     
     text-decoration: none;
     color: #000000;
-    font-size: 16px; /* Increased font size for readability */
-    padding: 5px 10px; /* Reduced padding */
-    line-height: 1; /* Consistent line height */
+    font-size: 16px; 
+    padding: 5px 10px; 
+    line-height: 1; 
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 header nav ul a:hover {
-    text-decoration: underline; /* Underline nav links on hover */
+    text-decoration: underline; 
 }
 
 /* Icons */
 .icons {
     display: flex;
-    flex-direction: row; /* Align icons horizontally */
+    flex-direction: row; 
    /* Ensure space between icons */
     list-style: none;
     padding: 0;
     margin: 0;
-    flex: 1; /* Allocate space for icons */
-    justify-content: flex-end; /* Align icons to the right */
+    flex: 1; 
+    justify-content: flex-end; 
 }
 
 .icons a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px; /* Default icon size */
+    font-size: 18px; 
     color: #000000;
-    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
-    text-decoration: none; /* No underline for icons */
+    transition: transform 0.3s ease, color 0.3s ease; 
+    text-decoration: none; 
 }
 
 .icons a:hover {
-    transform: scale(1.2); /* Enlarge icons on hover */
+    transform: scale(1.2); 
 }
 
 /* Search bar */
 .search-bar {
-    max-width: 270px; /* Increased search bar width */
+    max-width: 270px; 
     width: 100%;
-    display: flex; /* Align input and button horizontally */
+    display: flex; 
     align-items: center;
     border: 1px solid black;
-    border-radius: 20px; /* Adjusted for sleek appearance */
-    padding: 0 10px; /* Adjust padding for spacing */
-    gap: 5px; /* Space between input and button */
-    flex: 2; /* Allocate space for the search bar */
+    border-radius: 20px; 
+    padding: 0 10px; 
+    gap: 5px; 
+    flex: 2; 
 }
 
 .search-bar input {
-    flex: 1; /* Input takes up available space */
+    flex: 1; 
     border: none;
     outline: none;
-    padding: 5px; /* Reduced padding */
-    font-size: 16px; /* Increased font size */
+    padding: 5px; 
+    font-size: 16px; 
 }
 
 .search-bar button {
@@ -128,7 +128,7 @@ header nav ul a:hover {
 }
 
 .search-bar i {
-    font-size: 16px; /* Adjusted icon size */
+    font-size: 16px; 
     color: #000000;
 }
 
@@ -248,20 +248,20 @@ footer section {
 /* Footer Container */
 footer {
     display: flex;
-    flex-direction: column; /* Stack logo above the other sections */
+    flex-direction: column; 
    
-    justify-content: center; /* Vertically center the content */
-    width: 90%; /* Set a smaller width */
-    max-width: 1200px; /* Maximum width of the footer */
+    justify-content: center; 
+    width: 90%; 
+    max-width: 1200px; 
     padding: 15px;
 
-    margin: 0 auto; /* Center the footer horizontally on the page */
+    margin: 0 auto; 
 }
 
 /* Logo Section */
 .footer-logo {
-    text-align: left; /* Center the text */
-    margin-bottom: 20px; /* Space below the logo section */
+    text-align: left; 
+    margin-bottom: 20px; 
 }
 
 .footer-logo h2 {
@@ -278,21 +278,21 @@ footer {
 /* Footer Row: All three sections in one row */
 .footer-row {
     display: flex;
-    justify-content: space-between; /* Distribute the space evenly between sections */
-    gap: 120px; /* Optional space between sections */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-    width: 100%; /* Full width for the footer row */
-    max-width: 2000px; /* Max width to prevent stretching */
+    justify-content: space-between; 
+    gap: 120px; 
+    flex-wrap: wrap; 
+    width: 100%; 
+    max-width: 2000px; 
     align-items: center;
 }
 
 /* Footer Section */
 .footer-contact, .footer-links, .footer-social {
-    flex: 1; /* Allow sections to take equal space */
+    flex: 1; 
     padding: 10px;
-    background-color: #fff; /* Optional background for sections */
-    border-radius: 5px; /* Optional rounded corners for sections */
-    min-width: 250px; /* Ensure sections don't become too small */
+    background-color: #fff; 
+    border-radius: 5px; 
+    min-width: 250px; 
 }
 
 
@@ -331,7 +331,7 @@ footer li {
 }
 
 .footer-social a:hover {
-    color: #1b6cb9; /* Change color on hover */
+    color: #7c7c7c; 
 }
 
 /* Footer Contact Section */
@@ -350,18 +350,16 @@ footer li {
 
 
 /* Banner Section */
-/* Banner Section */
 #banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; /* Important: position the buttons relative to the #banner */
+    position: relative; 
     width: 80vw;
     height: 80vh;
     margin: 50px auto;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     background-color: white;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -374,14 +372,14 @@ footer li {
     height: 100%;
     display: flex;
     align-items: center;
-     /* Allow horizontal scroll for the slides */
+    
 }
 
 /* Slides */
 .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 300%; /* Total width for 3 slides */
+    width: 300%; 
     height: 100%;
     border-radius: 20px;
     background-color: white;
@@ -394,7 +392,7 @@ footer li {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100%; /* Each slide takes up 100% width of the slider */
+    width: 100%; 
     height: 100%;
     border-radius: 20px;
     background-color: white;
@@ -469,12 +467,12 @@ footer li {
     background: #555;
 }
 
-/* Navigation Buttons */
+/* Navigasjon knapper */
 button.prev, button.next {
-    position: absolute; /* Position relative to #banner */
+    position: absolute; 
     top: 50%;
     transform: translateY(-50%);
-    z-index: 3; /* Ensure buttons are above other content */
+    z-index: 3; 
     background: white;
     color: black;
     border: none;
@@ -490,14 +488,14 @@ button.prev:hover, button.next:hover {
 }
 
 button.prev {
-    left: 15px; /* Fixed position from the left edge of #banner */
+    left: 15px; 
 }
 
 button.next {
-    right: 15px; /* Fixed position from the right edge of #banner */
+    right: 15px; 
 }
 
-/* Shadow Effect on Images */
+
 .slides img {
     filter: brightness(70%);
 }
@@ -509,7 +507,7 @@ button.next {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0); /* Dim background */
+    background: rgba(0, 0, 0, 0); 
     z-index: 1;
 }
 
@@ -669,8 +667,8 @@ figcaption {
     font-weight: bold;
     color: #333;
     text-decoration: none;
-    display: inline-block;  /* Ensure product name is inline with the "Product Name" heading */
-    margin-right: 10px; /* Space between name and heading */
+    display: inline-block;  
+    margin-right: 10px; 
 }
 
 
@@ -696,7 +694,7 @@ figcaption {
     flex-direction: column; /* Plasser kategorikortene under hverandre */
     gap: 20px; /* Luft mellom kortene */
     padding: 0;
-    list-style: none; /* Fjern punktmerking */
+    list-style: none; 
 }
 
 
@@ -710,13 +708,13 @@ figcaption {
 
 .grid-container {
     display: grid;
-    grid-template-rows: repeat(3, 1fr); /* 3 equal rows */
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 20px; /* Space between grid items */
+    grid-template-rows: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    height: 600px; /* Define a fixed height for the grid container */
+    height: 600px; 
 }
 
 .grid-item {
@@ -736,26 +734,26 @@ figcaption {
 .grid-item.category {
     position: relative;
     width: 100%;
-    height: 100%; /* Ensure the category spans the full height of its grid cell */
+    height: 100%; 
     display: flex;
-    flex-direction: column; /* Ensures figure spans the full height */
+    flex-direction: column; 
 }
 
 .grid-item.category figure {
     position: relative;
     width: 100%;
-    height: 100%; /* Inherit the height of the parent .grid-item */
-    margin: 0; /* Remove default margin from figure */
+    height: 100%; 
+    margin: 0; 
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Ensure no overflow */
+    overflow: hidden; 
 }
 
 .grid-item.category img {
     width: 100%;
     height: 100%;
-    object-fit: fill; /* Ensures the image fills the space without distortion */
+    object-fit: fill; 
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -768,7 +766,7 @@ figcaption {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0); /* Semi-transparent background for readability */
+    background-color: rgba(0, 0, 0, 0); 
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
@@ -780,7 +778,7 @@ figcaption {
 }
 
 
-/* Assign categories to specific grid cells */
+
 .category-1 {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
@@ -865,39 +863,40 @@ figcaption {
 @media screen and (max-width: 768px) {
     .grid-container {
         display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-        gap: 20px; /* Space between items */
-        width: 100%; /* Full-width container */
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+        width: 100%; 
         height: auto;
     }
 
     .grid-item {
-        width: 90%; /* Adjust width for responsiveness */
-        min-height: 200px; /* Enforce a taller height */
+        width: 90%; 
+        min-height: 200px; 
         display: flex;
         flex-direction: column;
     }
 
     .grid-item.category {
-        min-height: 200px !important; /* Force increased height */
+        min-height: 200px !important; 
     }
 
     .grid-item.category img {
-        width: 100%; /* Ensure the image fills the width */
-        height: 40vh; /* Fill the full height */
-        object-fit: cover; /* Maintain aspect ratio */
+        width: 100%; 
+        height: 40vh; 
+        object-fit: cover; 
+        border-radius: 15px;
     }
 
     .grid-item.category figcaption {
         position: absolute;
-        bottom: 10px; /* Position at the bottom */
+        bottom: 10px; 
         left: 50%;
         transform: translateX(-50%);
-        font-size: 18px; /* Larger font size */
+        font-size: 18px; 
         padding: 10px;
-        background-color: rgba(0, 0, 0, 0); /* Semi-transparent background */
-        color: #fff; /* Ensure text is readable */
+        background-color: rgba(0, 0, 0, 0); 
+        color: #fff; 
         border-radius: 5px;
     }
 }
@@ -908,62 +907,62 @@ figcaption {
 /* Seksjon: Anmeldelser */
 #Anmeldelser {
     padding: 35px;
-    margin-bottom: 20px; /* Luft mellom denne seksjonen og neste */
+    margin-bottom: 20px; 
 }
 
 #Anmeldelser h2 {
-    text-align: left; /* Sentrer overskriften */
-    margin-bottom: 15px; /* Luft under overskriften */
+    text-align: left; 
+    margin-bottom: 15px; 
 }
 
 #review-slider-container {
     width: 100%;
     max-width: 100vw;
-    overflow: hidden; /* Hide content outside the container */
+    overflow: hidden; 
     position: relative;
     padding: 10px 0;
 }
 
-/* Reviews Slider */
+
 .reviews-slider {
-    list-style: none; /* Remove list styling */
-    display: flex; /* Inline-flex ensures horizontal alignment */
-    gap: 20px; /* Space between the review cards */
+    list-style: none; 
+    display: flex; 
+    gap: 20px; 
     padding: 0;
     margin: 0;
-    transform: translateX(0); /* Initial position for scroll animation */
+    transform: translateX(0); 
     transition: transform 0.3s ease-in-out;
-    overflow-x: scroll;  /* Can be auto, hidden, or visible */
+    overflow-x: scroll;  
     overflow-y: hidden;
 }
 
-/* Individual Review */
+
 .review {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: flex-start; /* Align all content to the left */
-    width: 300px; /* Fixed width for each review */
-    height: auto; /* Allow flexible height to fit content */
-    text-align: left; /* Align text to the left */
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 300px; 
+    height: auto; 
+    text-align: left; 
     background-color: #fff;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px; 
     padding: 20px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Slight shadow for cards */
-    flex-shrink: 0; /* Prevent shrinking of cards */
-    margin-bottom: 20px; /* Add spacing between reviews */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); 
+    flex-shrink: 0; 
+    margin-bottom: 20px; 
 }
 
 
 /* Circular Image */
 .review figure {
-    margin: 0 0 10px; /* Space below the figure */
+    margin: 0 0 10px; 
 }
 
 .review figure img {
     width: 80px;
     height: 80px;
     object-fit: cover;
-    border-radius: 50%; /* Circular image */
+    border-radius: 50%; 
     margin: 0 ;
 }
 
@@ -977,8 +976,8 @@ figcaption {
 
 /* Rating */
 .rating {
-    text-align: left; /* Align stars to the left */
-    color: black; /* Black color for stars */
+    text-align: left; 
+    color: black; 
     font-size: 16px;
     margin: 10px 0;
 }
@@ -987,13 +986,13 @@ figcaption {
 .review-text {
     font-size: 14px;
     color: #666;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
 }
 
 
 /* Circular Image */
 .review figure {
-    margin: 0 0 10px; /* Space below the figure */
+    margin: 0 0 10px; 
 }
 
 
@@ -1003,62 +1002,61 @@ figcaption {
 /* Brødsmulesti */
 .breadcrumb {
     display: flex;
-    flex-direction: row; /* Default layout for larger screens */
-    align-items: center; /* Vertically center items */
-    gap: 5px; /* Space between breadcrumb items */
-    padding: 10px 0; /* Space above and below breadcrumbs */
-    list-style: none; /* Remove default list styling */
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    flex-direction: row; 
+    align-items: center; 
+    gap: 5px; 
+    padding: 10px 0; 
+    list-style: none; 
+    flex-wrap: wrap; 
 }
 
 .breadcrumb li {
-    font-size: 14px; /* Readable font size */
+    font-size: 14px; 
     color: #333;
-    white-space: nowrap; /* Prevent text wrapping within individual items */
+    white-space: nowrap; 
 }
 
 .breadcrumb li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #333; /* Dark text */
+    text-decoration: none; 
+    color: #333; 
 }
 
 .breadcrumb li:last-child {
-    font-weight: bold; /* Highlight the last item */
-    cursor: default; /* Change cursor for non-clickable item */
+    font-weight: bold; 
+    cursor: default; 
 }
 
 .breadcrumb li::after {
     content: ">";
-    margin-left: 5px; /* Space to the left of separator */
-    margin-right: 5px; /* Space to the right of separator */
-    color: #999; /* Light gray color for the separator */
+    margin-left: 5px; 
+    margin-right: 5px; 
+    color: #999; 
 }
 
 .breadcrumb li:last-child::after {
-    content: ""; /* Remove separator for the last item */
+    content: ""; 
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
     .breadcrumb {
-        flex-direction: column; /* Stack breadcrumbs vertically */
-        align-items: flex-start; /* Align items to the left */
-        gap: 10px; /* Add more spacing between items */
+        align-items: flex-start; 
+        gap: 10px; 
     }
 
     .breadcrumb li {
-        font-size: 12px; /* Slightly smaller font for smaller screens */
+        font-size: 12px; 
     }
 }
 
 @media (max-width: 480px) {
     .breadcrumb li {
-        font-size: 11px; /* Further reduce font size for very small screens */
+        font-size: 11px; 
     }
 
     .breadcrumb li::after {
         margin-left: 3px;
-        margin-right: 3px; /* Reduce spacing around separator */
+        margin-right: 3px; 
     }
 }
 
@@ -1097,7 +1095,7 @@ figcaption {
 }
 
 .main-image img {
-    max-width: 400px; /* Begrens bredde for hovedbildet */
+    max-width: 390px; /* Begrens bredde for hovedbildet */
     height: auto; /* Bevarer proporsjoner */
     display: block;
     margin: 0 auto;
@@ -1139,8 +1137,8 @@ figcaption {
 
 /* Produktnavn */
 #product-name {
-    font-size: 1.8rem; /* Større font for produktnavnet */
-    font-weight: bold; /* Gjør navnet fet */
+    font-size: 1.8rem; 
+    font-weight: bold; 
 }
 
 /* Merkenavn */
@@ -1189,7 +1187,7 @@ figcaption {
     font-size: 1rem;
     font-weight: bold;
     border: none;
-    border-radius: 5px; /* Myke kanter */
+    border-radius: 5px; 
     cursor: pointer;
     text-decoration: none;
     align-items: center;
@@ -1206,26 +1204,26 @@ figcaption {
     padding: 5px; /* Luft rundt ikonet */
     font-size: 1.2rem; /* Størrelse på hjertet */
     cursor: pointer; /* Pekehånd ved hover */
-    height: 9vh;
+    height: 5vh;
     width: 4vw;
    color:white;
 }
 
 .heart-icon {
-    font-size: 1.2rem; /* Size of the heart */
-    color: white; /* White fill for the heart */
+    font-size: 1.2rem; 
+    color: white; 
     text-shadow: 
         1px 1px 0 black, 
         -1px 1px 0 black, 
         1px -1px 0 black, 
-        -1px -1px 0 black; /* Black border effect */
+        -1px -1px 0 black; 
 }
 
 
-/* Detaljer */
+
 .product-info details {
-    padding: 10px 0; /* Luft rundt detaljene */
-    border-top: 1px solid #ddd; /* Separator mellom detaljene */
+    padding: 10px 0; 
+    border-top: 1px solid #ddd; 
 }
 
 .product-info details summary {
@@ -1234,11 +1232,11 @@ figcaption {
 }
 
 .product-info details p {
-    font-size: 0.9rem; /* Litt mindre tekst */
+    font-size: 0.9rem; 
     margin-top: 10px;
 }
 
-/* Tabell i størrelsestabell */
+
 .product-info table {
     width: 100%;
     border-collapse: collapse;
@@ -1254,13 +1252,13 @@ figcaption {
 }
 
 .product-info table th {
-    background-color: #f1f1f1; /* Lys grå bakgrunn for overskriften */
+    background-color: #f1f1f1; 
     font-weight: bold;
 }
 
 /* Stjerneanmeldelser */
 .product-info .star-rating i {
-    color: #000000; /* Gullfarge for stjerner */
+    color: #000000; 
 }
 
 .product-info .review strong {
@@ -1277,7 +1275,7 @@ figcaption {
 /* Produktkort uten kantlinje */
 .product1, .product2, .product3, .product4, .product5, .product6 {
     display: flex;
-    flex-direction: column; /* Plasser innholdet under hverandre */
+    flex-direction: column; 
     align-items: center;
     padding: 10px;
     margin-bottom: 20px; /* Luft mellom hvert produktkort */
@@ -1314,7 +1312,7 @@ figcaption {
         width: 80vw;
     }
     .product-info {
-        flex-direction: column; /* Stable elementene vertikalt på små skjermer */
+        flex-direction: column; 
         /*align-items: center; /* Sentrer innholdet, slå det av siden det ikke så fint ut */
         width: 77vw;
         border: none;
@@ -1373,54 +1371,54 @@ figcaption {
 
 /* Product List */
 .product-list {
-    list-style: none; /* Remove list styling */
-    display: flex; /* Inline-flex ensures horizontal alignment */
-    gap: 20px; /* Space between the cards */
+    list-style: none; 
+    display: flex; 
+    gap: 20px; 
     padding: 0;
     margin: 0;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    overflow-y: hidden; /* Prevent vertical scrolling */
-    white-space: nowrap; /* Prevent items from wrapping */
-    scroll-snap-type: x mandatory; /* Smooth snapping for scrollable items */
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    white-space: nowrap; 
+    scroll-snap-type: x mandatory; 
 }
 
 .product-list::-webkit-scrollbar {
-    height: 8px; /* Custom scrollbar height */
+    height: 8px; 
 }
 
 .product-list::-webkit-scrollbar-thumb {
-    background-color: #bbb; /* Scrollbar thumb color */
+    background-color: #bbb; 
     border-radius: 4px;
 }
 
 .product-list::-webkit-scrollbar-track {
-    background-color: #f5f5f5; /* Scrollbar track color */
+    background-color: #f5f5f5; 
 }
 
 .product {
     background-color: #fff;
-    border-radius: 20px; /* Keep rounded corners */
+    border-radius: 20px; 
     overflow: hidden;
     text-align: center;
     padding: 0;
     position: relative;
-    flex: 0 0 auto; /* Prevent cards from shrinking or growing */
-    width: 300px; /* Ensure consistent card width */
-    height: auto; /* Allow flexible height */
-    scroll-snap-align: start; /* Align cards during scrolling */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    flex: 0 0 auto; 
+    width: 300px; 
+    height: auto; 
+    scroll-snap-align: start; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-/* Maintain responsive image dimensions */
+
 .product  img {
     width: 100%;
-    height: 200px; /* Fixed height for consistent image sizing */
+    height: 200px; 
     object-fit: cover;
     border-bottom: 1px solid #ddd;
-    border-radius: 20px 20px 0 0; /* Rounded top corners */
+    border-radius: 20px 20px 0 0; 
 }
 
-/* Position favorite button correctly */
+
 .favorite-btn {
     position: absolute;
     top: 10px;
@@ -1444,7 +1442,7 @@ figcaption {
     color: #fff;
 }
 
-/* Product details remain consistent */
+
 figcaption {
     padding: 15px 10px;
     text-align: left;
@@ -1608,7 +1606,7 @@ body, main, header, footer, section, article {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
-    text-align: left; /* Matches with SHOPPINGBAGEN header */
+    text-align: left; 
 }
 
 /* Fieldset styling */
@@ -1699,10 +1697,10 @@ body, main, header, footer, section, article {
 #Levering form, 
 #betaling form {
     display: flex;
-    flex-direction: column; /* Stack all elements */
- /* Spacing between fields */
-    width: 100%; /* Full width of container */
-    font-family: Arial, sans-serif; /* Use clean, readable font */
+    flex-direction: column; 
+ 
+    width: 100%; 
+    font-family: Arial, sans-serif; 
     margin: 30px auto;
 }
 
@@ -1713,11 +1711,11 @@ body, main, header, footer, section, article {
     font-weight: bold;
     margin-bottom: 20px;
     text-align: left;
-    margin: 0; /* Align with other headers */
+    margin: 0; 
     padding: 0;
 }
 
-/* Ensure consistent spacing for both sections */
+
 #DINE_OPPLYSNINGER, 
 #Levering {
     margin: 0;
@@ -1726,72 +1724,72 @@ body, main, header, footer, section, article {
 
 /* Leveringsvalg */
 #Levering article {
-    border: none; /* Removed border */
-    border-radius: 5px; /* Smooth corners */
-    padding: 15px; /* Inner spacing */
-    margin-bottom: 15px; /* Spacing between articles */
-    background-color: #fff; /* Clean white background */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+    border: none; 
+    border-radius: 5px; 
+    padding: 15px; 
+    margin-bottom: 15px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 /* Leveringsvalg content layout */
 .leveringsvalg-container {
     display: flex;
-    align-items: flex-start; /* Align radio buttons and labels */
-    gap: 10px; /* Space between radio and label */
+    align-items: flex-start; 
+    gap: 10px; 
 }
 
 /* Radio button styling */
 .leveringsvalg-container input[type="radio"] {
-    margin: 0; /* Remove default margins */
-    width: 18px; /* Match size in screenshot */
-    height: 18px; /* Same height as width */
+    margin: 0; 
+    width: 18px; 
+    height: 18px; 
 }
 
 /* Label for levering options */
 .leveringsvalg-container label {
-    font-size: 1rem; /* Consistent font size */
-    font-weight: bold; /* Bold text for options */
-    color: #000; /* Dark text for readability */
-    margin: 0; /* No margin */
+    font-size: 1rem; 
+    font-weight: bold; 
+    color: #000; 
+    margin: 0; 
 }
 
 /* Subtext for levering (gray) */
 .leveringsvalg-container span {
     font-size: 0.9rem;
-    color: #888; /* Gray for secondary details */
-    display: block; /* Stack below main text */
+    color: #888; 
+    display: block; 
 }
 
-/* Price section (aligned with radio buttons) */
+
 .leveringsvalg-container .pris {
-    margin-left: auto; /* Push price to the far right */
-    font-size: 1rem; /* Same size as main text */
-    font-weight: bold; /* Bold for emphasis */
-    color: #000; /* Dark text for readability */
+    margin-left: auto; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    color: #000; 
     display: flex;
-    align-items: center; /* Align with radio button */
-    gap: 5px; /* Space between price and icon */
+    align-items: center; 
+    gap: 5px; 
 }
 
 /* Icon styling in price */
 .leveringsvalg-container .pris img {
-    width: 16px; /* Match icon size */
-    height: 16px; /* Square dimensions */
+    width: 16px; 
+    height: 16px; 
 }
 
 /* Description text for levering (paragraphs) */
 #Levering article p {
     font-size: 0.9rem;
-    line-height: 1.4; /* Better readability */
-    color: #444; /* Slightly dark gray for readability */
-    margin-top: 10px; /* Space above paragraph */
+    line-height: 1.4; 
+    color: #444; 
+    margin-top: 10px; 
 }
 
 /* Leverings header alignment */
 #Levering h3 {
-    margin-bottom: 15px; /* Match spacing in screenshot */
-    text-align: left; /* Align text to the left */
+    margin-bottom: 15px; 
+    text-align: left; 
 }
 
 /* General styles for Betaling Section */
@@ -1918,122 +1916,124 @@ body, main, header, footer, section, article {
 
 
 #cart_Main {
-    width: 50%; /* Set width to 50% */
-    margin: 0 auto; /* Center the section horizontally */
-    padding: 20px; /* Optional: adds space around the section */
-    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 header {
-    text-align: center; /* Center the content inside the header */
+    text-align: center; 
 }
 
 h2 {
-    margin-top: 10px; /* Optional: Adds space above the "Kasse" heading */
+    margin-top: 10px; 
 }
 
 
 #seksjon-kasse h2 {
-    text-align: center; /* Center the text horizontally */
-    margin-top: 20px; /* Optional: Adds space above the "Kasse" heading */
+    text-align: center; 
+    margin-top: 20px; 
 }
 
 
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
-    /* Adjust layout for tablets and mobile */
+    
     header {
-        flex-direction: column; /* Stack elements vertically on small screens */
-        align-items: center; /* Center all elements */
+        flex-direction: column; 
+        align-items: center; 
         flex-wrap: wrap;
     }
 
     #Logo {
-        flex: 1; /* Allow logo to take available space */
-        text-align: center; /* Center-align the logo */
-        margin-bottom: 10px; /* Add space between logo and nav */
+        flex: 1; 
+        text-align: center; 
+        margin-bottom: 10px; 
     }
 
     header nav {
-        margin-left: 0; /* Remove left margin */
-        flex: 1; /* Make nav take available space */
-        justify-content: center; /* Center the nav links */
+        margin-left: 0; 
+        flex: 1; 
+        justify-content: center; 
     }
 
     #hoved-navigasjon {
-        flex-direction: column; /* Stack navigation items vertically on small screens */
-        align-items: center; /* Center nav items */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .icons {
-        flex: 1; /* Allow icons to take available space */
-        justify-content: center; /* Center icons on small screens */
-        width: 100%; /* Force the icons container to take full width */
-        display: block; /* Ensure it behaves as a block element */
-        margin-top: 10px; /* Add margin at the top */
+        flex: 1; 
+        justify-content: center; 
+        width: 100%; 
+        display: block; 
+        margin-top: 10px; 
     }
 
     .search-bar {
-        max-width: 50vw; /* Allow search bar to take more space */
-        margin-top: 10px; /* Space above search bar */
-        justify-content: center; /* Center the search bar */
+        max-width: 50vw; 
+        margin-top: 10px; 
+        justify-content: center; 
     }
 }
 
 @media (max-width: 768px) {
     header {
-        flex-direction: column; /* Stack header elements vertically */
-        align-items: center; /* Center all elements */
+        flex-direction: column; 
+        align-items: center; 
         flex-wrap: wrap;
     }
 
     header nav {
         display: flex;
-        flex-direction: column; /* Stack navigation and icons */
+        flex-direction: column; 
         align-items: center;
         width: 100%;
+        line-height: 2.5;
     }
 
     #hoved-navigasjon {
-        flex-direction: column; /* Stack navigation items */
-        align-items: center; /* Center nav items */
-        margin-bottom: 10px; /* Add spacing below nav items */
+        flex-direction: column; 
+        align-items: center; 
+        margin-bottom: 10px; 
+        gap: 10px;
     }
 
     .icons {
-        width: 100%; /* Full width for icons */
-        display: flex; /* Keep icons in a row */
-        justify-content: center; /* Center icons horizontally */
-        margin-top: 10px; /* Add spacing above icons */
+        width: 100%; 
+        display: flex; 
+        justify-content: center; 
+        margin-top: 10px; 
     }
 
     .search-bar {
-        max-width: 50vw; /* Allow search bar to take more space */
-        margin-top: 10px; /* Space above search bar */
+        max-width: 50vw; 
+        margin-top: 10px; 
         justify-content: center;
     }
 }
 
 
-@media (max-width: 480px) {
-    /* Adjust layout for smaller screens (mobiles) */
+@media (max-width: 768px) {
+     */
     header {
-        padding: 10px; /* Smaller padding for mobile */
+        padding: 10px; 
         gap: 10px;
     }
    
 
     .search-bar {
-        max-width: 60vw; /* Full width for search bar */
+        max-width: 60vw; 
     }
 
     .icons a {
-        font-size: 8px; /* Smaller icon size on small screens */
+        font-size: 15px; 
     }
 
     #Logo {
-        font-size: 1.5rem; /* Slightly smaller logo for mobile */
+        font-size: 1.5rem; 
     }
 }
 
@@ -2041,21 +2041,21 @@ h2 {
 
     
     .slide .content, #otherslides .content {
-        left: 5%; /* Adjust the left position for better centering on smaller screens */
-        width: 50vw; /* Increase the width for better visibility on tablets */
+        left: 5%; 
+        width: 50vw; 
     }
 
     .slide .content h1, #otherslides .content h1 {
-        font-size: 1.6rem; /* Adjust font size for better readability */
+        font-size: 1.6rem; 
     }
 
     .slide .content p, #otherslides .content p {
-        font-size: 0.9rem; /* Smaller font size for better fit */
+        font-size: 0.9rem; 
     }
 
     .slide .content .button #otherslides .content p {
-        font-size: 0.8rem; /* Smaller button text for better alignment */
-        padding: 8px 16px; /* Adjust padding for smaller screen */
+        font-size: 0.8rem; 
+        padding: 8px 16px; 
     }
 }
 
@@ -2066,84 +2066,84 @@ h2 {
         overflow: hidden;
     }
     .slide .content, #otherslides .content {
-        left: 0; /* Center content horizontally */
-        width: 63vw; /* Take up more width on small screens */
+        left: 0; 
+        width: 63vw; 
         text-align: right; 
-        /* Center align the text on very small screens */
+        
     }
 
     .slide .content h1, #otherslides .content h1 {
-        font-size: 1.4rem; /* Further reduce heading size on mobile */
+        font-size: 1.4rem; 
         margin-bottom: 8px;
     }
 
     .slide .content p, #otherslides .content p {
-        font-size: 0.8rem; /* Further reduce paragraph size on mobile */
+        font-size: 0.8rem; 
     }
 
     .slide .content .button , #otherslides .content .button {
-        font-size: 0.7rem; /* Further adjust button text size */
-        padding: 6px 12px; /* Adjust padding for mobile */
+        font-size: 0.7rem; 
+        padding: 6px 12px; 
     }
 }
 
-/* Center-align the section and products */
+
 #De-mest-populære {
     padding: 20px;
-    margin-bottom: 20px; /* Space between this section and the next */
-    text-align: center; /* Center-align the content */
+    margin-bottom: 20px; 
+    text-align: center; 
 }
 
 #De-mest-populære h2, 
 #De-mest-populære h3 {
     text-align: center;
-    margin-bottom: 15px; /* Space between headings */
+    margin-bottom: 15px; 
 }
 
-/* Center the product table */
+
 .produkt-liste {
     display: flex;
-    justify-content: center; /* Center-align the product table */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-    gap: 20px; /* Space between product cards */
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
     padding: 20px;
 }
 
-/* Style the product table */
+
 table {
-    width: auto; /* Auto size the table */
-    border-spacing: 20px; /* Space between rows */
-    table-layout: auto; /* Adjust to fit content */
+    width: auto; 
+    border-spacing: 20px; 
+    table-layout: auto; 
 }
 
-/* Product Card Styling */
+
 .product {
-    width: 18%; /* Adjust width for smaller product cards */
+    width: 18%; 
     background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
     padding: 0;
     position: relative;
-    margin: 10px; /* Space between product cards */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-/* Image adjustments */
+
 .product img {
     width: 100%;
-    height: 40vh; /* Adjust the height */
+    height: 40vh; 
     object-fit: cover;
     border-bottom: 1px solid #ddd;
     border-radius: 20px 20px 0 0;
 }
 
-/* Favorite button adjustments */
+
 .favorite-btn {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: rgba(200, 200, 200, 0.8);
+    background-color: rgba(255, 255, 255, 0.31);
     border: none;
     color: white;
     cursor: pointer;
@@ -2158,13 +2158,13 @@ table {
 }
 
 .favorite-btn:hover {
-    background-color: #e74c3c;
+    background-color: #ea3e2cbd;
     color: #fff;
 }
 
-/* Product caption adjustments */
+
 figcaption {
-    padding: 10px;
+    padding: 30px;
     text-align: left;
 }
 
@@ -2177,7 +2177,7 @@ figcaption a {
     display: block;
 }
 
-/* Product name and reviews */
+
 .product-name {
     font-size: 1em;
     font-weight: bold;
@@ -2208,7 +2208,7 @@ summary {
 }
 
 .toggle-sign {
-    margin-right: 10px; /* Adjust space between the + and text */
+    margin-right: 10px; 
     font-size: 20px;
 }
 
@@ -2222,49 +2222,49 @@ summary {
 }
 
 .product {
-    width: 25%; /* Adjust product width */
+    width: 25%; 
     background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
     padding: 0;
     position: relative;
-    margin: 10px; /* Add some spacing between products */
+    margin: 10px; 
 }
 
 .product img {
-    width: 100%; /* Keep width 100% to maintain responsiveness */
-    height: 40vh; /* Reduce height for all devices */
-    object-fit: fill; /* Ensure the image fits well */
+    width: 100%; 
+    height: 40vh; 
+    object-fit: fill; 
     border-bottom: 1px solid #ddd;
     border-radius: 20px 20px 0 0;
     
 }
 
-/* Adjustments for responsiveness */
+
 @media (max-width: 768px) {
     .product {
-        width: 45%; /* Two products per row on tablets */
+        width: 45%; 
     }
 
     .product img {
-        height: 25vh; /* Reduce height further for tablets */
+        height: 25vh; 
     }
 }
 
 @media (max-width: 480px) {
     .product {
         width: 20vw;
-        height: 40vh; /* Single product per row on mobile */
+        height: 40vh; 
     }
 
     .product img {
-        height: 20vh; /* Further reduce height for mobile */
+        height: 20vh; 
     }
 }
 
 @media (max-width: 768px) {
-    /* Stack filter buttons vertically on smaller screens */
+    
     .product-filters {
         flex-direction: column;
         align-items: center;
@@ -2277,15 +2277,15 @@ summary {
         overflow-y: hidden;
         overflow-x: scroll;
     }
-    /* Product images adjustment */
+    
     .product img {
         width: 60vw;
-        height: 50vh; /* Adjust image height for smaller screens */
+        height: 50vh; 
     }
     .product-list .product figure img {
         width: 250px;
         height: 150px; 
-        object-fit: fill;/* Adjust image height for smaller screens */
+        object-fit: fill;
     }
     .product-list  .product {
         display: inline-block;
@@ -2294,7 +2294,7 @@ summary {
       
         height: 300px;
     }
-    /* Display products in a single column on smaller screens */
+    
     table {
         display: block;
         overflow-x: auto;
@@ -2313,7 +2313,7 @@ summary {
     }
 
     .favorite-btn {
-        font-size: 1.2em; /* Adjust the favorite button size */
+        font-size: 1.2em; 
         width: 35px;
         height: 35px;
     }
@@ -2321,11 +2321,11 @@ summary {
 
 @media (max-width: 480px) {
     .product-name {
-        font-size: 1em; /* Adjust font size for mobile */
+        font-size: 1em; 
     }
 
     .product-reviews {
-        font-size: 0.9em; /* Adjust font size for mobile */
+        font-size: 0.9em; 
     }
 
     .favorite-btn {
@@ -2335,7 +2335,7 @@ summary {
     }
 
     .product img {
-        height: 50vh; /* Adjust image height further for mobile */
+        height: 50vh; 
     }
 
     .product-filters {
@@ -2350,9 +2350,9 @@ summary {
 
 
 #productbody{
-    width: 90%; /* Set width to 50% */
-    margin: 0 auto; /* Center the section horizontally */
-    padding: 20px; /* Optional: adds space around the section */
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 20px; 
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -2360,20 +2360,20 @@ summary {
 
 
 .product-list .product {
-    width: 20%; /* Adjust product width */
+    width: 20%; 
     background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
     padding: 0;
     position: relative;
-    margin: 10px; /* Add some spacing between products */
+    margin: 10px; 
 }
 
 .product-list .product img {
-    width: 100%; /* Keep width 100% to maintain responsiveness */
-    height: 30vh; /* Reduce height for all devices */
-    object-fit: fill; /* Ensure the image fits well */
+    width: 100%; 
+    height: 30vh; 
+    object-fit: fill; 
     border-bottom: 1px solid #ddd;
     border-radius: 20px 20px 0 0;
     
@@ -2381,31 +2381,33 @@ summary {
 
 @media (max-width: 768px) {
     #banner {
-        height: 60vh; /* Adjust banner height for smaller screens */
-        overflow: hidden; /* Ensure no scrolling */
+        height: 60vh; 
+        overflow: hidden; 
     }
 
     .slider {
-        overflow: hidden; /* Prevent horizontal scrolling */
+        overflow: hidden; 
     }
 
     .slide img {
-        width: 100%; /* Responsive image width */
+        width: 100%; 
         height: 100%;
         object-fit: cover;
     }
 
     .slide .content {
-        width: 90%; /* Adjust content width for smaller screens */
-        text-align: center; /* Center align text */
+        width: 90%; 
+        text-align: right; 
+        left:auto
+        
     }
 
     .slide .content h1 {
-        font-size: 1.2rem; /* Adjust heading size */
+        font-size: 1.2rem; 
     }
 
     .slide .content p {
-        font-size: 0.9rem; /* Adjust paragraph size */
+        font-size: 0.9rem; 
     }
 
     .slide .content .button {
@@ -2414,7 +2416,7 @@ summary {
     }
 
     button.prev, button.next {
-        display: none; /* Hide navigation buttons on smaller screens */
+        display: none;  
     }
     #otherslide1,#otherslide2{
         display: none;
