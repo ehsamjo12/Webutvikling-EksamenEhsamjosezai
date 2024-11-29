@@ -548,7 +548,7 @@ figcaption a {
 
 #De-mest-populære .filter-btn {
     padding: 10px 20px; /* Luft rundt teksten */
-    border: 1px solid #000; /* Svart kant */
+    border: 1px solid #0000009c; /* Svart kant */
     background-color: transparent; /* Ingen bakgrunnsfarge */
     color: #000; /* Svart tekst */
     font-size: 14px; /* Lesbar fontstørrelse */
@@ -561,7 +561,7 @@ figcaption a {
 
 /* Hover-effekt */
 #De-mest-populære .filter-btn:hover {
-    background-color: #666666; /* Svart bakgrunn */
+    background-color: #a2a1a1; /* Svart bakgrunn */
     color: #fff; /* Hvit tekst */
 }
 
@@ -2427,3 +2427,40 @@ summary {
 
 
 
+
+.scroll-to-top {
+    position: fixed; 
+    bottom: 30px;
+    right: 20px;
+    background-color: #c6c6c62b;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 15px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.041);
+    border-radius: 50%;
+    text-decoration: none;
+    z-index: 1000;
+    opacity: 0.8;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: #c6c6c6a6;
+}
+
+.scroll-to-top:focus {
+    outline: 2px solid #c7c5c5;
+    outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+    .scroll-to-top {
+        font-size: 15px;
+        padding: 6.4px 12px;
+        right: 0.5%;
+        bottom: 15px;
+    }
+}
